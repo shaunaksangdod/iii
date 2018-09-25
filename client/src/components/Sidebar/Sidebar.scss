@@ -1,0 +1,238 @@
+@import '../../styles/base';
+
+.transition, .divP, p, ul li i:before, ul li i:after {
+  transition: all 0.25s ease-in-out;
+}
+
+.flipIn, h1, ul li {
+  animation: flipdown 0.5s ease both;
+}
+
+.no-select, h2 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.accordionItem > .accordianHeader {
+  font-family: 'Fira Sans', sans-serif;
+  color: #333;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  padding: 10px;
+  padding-top: 18px;
+
+}
+
+.divP {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  z-index: 2;
+  padding-top:0px;
+}
+
+.accordianList {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+}
+
+.accordionItem:hover  {
+  border: 1px solid $primary-color;
+  background-color: #efefef;//#014c8c;
+}
+
+.accordionItem {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4px;
+  padding-top: 0px;
+  border: 1px solid #dce7eb;
+  background-color: #fff;//#efefef;
+  color: $primary-color;
+  
+}
+
+.accordionItem.active  {
+  //border: 3px solid #333;//$primary-color;
+  background-color: #fff;
+  color: $primary-color;
+}
+
+.accordionItem:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+.accordionItem:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+.accordionItem:nth-of-type(3) {
+  animation-delay: 1s;
+}
+.accordionItem:nth-of-type(4) {
+  animation-delay: 1.25s;
+}
+.accordionItem:last-of-type {
+  padding-bottom: 0;
+}
+.accordionItem i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 5px;
+  margin-right: 10px;
+  right: 0;
+}
+.accordionItem i:before, .accordionItem i:after {
+  content: "";
+  position: absolute;
+  background-color: #4292c6;
+  width: 3px;
+  height: 9px;
+}
+
+
+
+.accordionItem i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+.accordionItem i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+.accordionItem input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+.checkeredBox ~ .divP {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+.checkeredBox ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+.checkeredBox ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+.list-group-item {
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+.list-group{
+  
+  //border-top: 1px solid #efefef;
+  box-shadow: none;
+  //border: none;
+}
+.list-group-item{
+  background-color: #fff!important;
+  color: #333!important; //$primary-color!important;
+  padding-left: 10px;
+  padding-right: 0px;
+  transition: height 0.5s;
+  border: none;
+  //border-left:  2px solid $primary-color;
+  border-radius: 0px;
+  //border-top: 2px solid $primary-color;
+  //border-bottom: 2px solid $primary-color;
+}
+
+.list-group-item.active{
+  background-color: #efefef!important;//$primary-color!important;
+  color: #333!important;
+  
+  
+}
+
+.list-group-item.active:hover{
+  // background-color: #efefef!important;
+  // color:#014c8c!important;;
+}
+
+.list-group-item:hover{
+  background-color: #dedede!important;
+  color: #333!important;
+    transition: length 0.1s;
+}
+
+.indicator {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 5px;
+  margin-right: 10px;
+  left: 15px;
+}
+.indicator:before, .indicator:after {
+  content: "";
+  position: absolute;
+  background-color: #4292c6;
+  width: 3px;
+  height: 9px;
+
+}
+.indicator:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+.indicator:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+.indicator.active:before {
+  transform: translate(2px, 0) rotate(45deg);
+   background-color: #fff!important;
+}
+.indicator.active:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+   background-color: #fff!important;
+}
+
+
+
+@keyframes flipdown {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  80% {
+    transform: rotateX(8deg);
+  }
+  83% {
+    transform: rotateX(6deg);
+  }
+  92% {
+    transform: rotateX(-3deg);
+  }
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg);
+  }
+}

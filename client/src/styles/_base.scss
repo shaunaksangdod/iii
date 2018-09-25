@@ -1,0 +1,16 @@
+/*
+Application Settings Go Here
+------------------------------------
+This file acts as a bundler for all variables/mixins/themes, so they
+can easily be swapped out without `core.scss` ever having to know.
+
+For example:
+
+@import './variables/colors';
+@import './variables/components';
+@import './themes/default';
+*/
+
+
+$primary-color: rgb(5, 48, 97);//#2c3b4c;//rgb(33, 102, 172); //#172a41; //); //#0d2038;//;
+//rgb(67, 147, 195);
