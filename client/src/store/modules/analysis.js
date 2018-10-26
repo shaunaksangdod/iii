@@ -55,9 +55,10 @@ export function receiveAnalysis (type, education, value) {
   }
 }
 
-export const loadAnalyses = (type, education) => {
+export const loadAnalyses = (type, education, year) => {
+ //alert('Loading year: '+year)
   return (dispatch) => {
-    return fetch(`/json_v2/${dataSources[type][education]}`)
+    return fetch(`/${year}/${dataSources[type][education]}`)
       .then(response => response.json())
       .then(json => {
         return dispatch(receiveAnalysis(type, education, json))

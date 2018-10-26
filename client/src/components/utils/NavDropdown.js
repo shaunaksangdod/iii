@@ -10,10 +10,10 @@ class NavDropdown extends React.Component {
     this.setState({ open: !this.state.open })
   }
   componentDidMount() {
-    document.getElementById('theDropDown').addEventListener("blur", d => {
-      console.log('focusout')
-      this.setState({ open: false })
-    })
+   document.getElementById('theDropDown').addEventListener("blur", d => {
+    console.log('focusout')
+    this.setState({open: false})
+   })
   }
   render () {
     return (
@@ -24,6 +24,7 @@ class NavDropdown extends React.Component {
         <div className='dropdown-menu' style={{ display: this.state.open ? 'block' : 'none' }}>
           {this.props.children}
         </div>
+
       </div>
     )
   }

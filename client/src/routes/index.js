@@ -1,7 +1,7 @@
 // We only need to import the modules necessary for initial render
 import CoreLayout from '../layouts/CoreLayout/CoreLayout'
 import Home from './Home'
-import { Explorer, ExplorerType } from './DataExplorer'
+import { Explorer, ExplorerType_2014, ExplorerType_2016 } from './DataExplorer'
 import Processing from './DataProcessing'
 import Login from './Login/index'
 import About from './About'
@@ -12,14 +12,14 @@ import Research from './Research'
 import DataOverview from './DataOverview'
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
-
 export const createRoutes = (store) => ({
   path        : '/',
   component   : CoreLayout,
   indexRoute  : Home,
   childRoutes : [
     Explorer(store),
-    ExplorerType(store),
+   ExplorerType_2014(store),
+   ExplorerType_2016(store),
     Login(store),
     About(store),
     Methods(store),

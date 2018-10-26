@@ -247,6 +247,7 @@ class DataExplorer extends React.Component {
       puma_data: [],
       activeCategory: Object.keys(cats)[0],
       activeAnalysis: this.props.params.type || 'nativity',
+      activeYear: window.year || '2014', //added by me
       educationLevel: 'babs',
       activeRegions: null,
       geoData: null,
@@ -256,6 +257,7 @@ class DataExplorer extends React.Component {
     }
     this.setActiveCategory = this.setActiveCategory.bind(this)
     this.setActiveAnalysis = this.setActiveAnalysis.bind(this)
+    this.setActiveYear = this.setActiveYear.bind(this) //added by me
     this.educationClick = this.educationClick.bind(this)
     this.mapClick = this.mapClick.bind(this)
     this.renderLegend = this.renderLegend.bind(this)
@@ -275,7 +277,8 @@ class DataExplorer extends React.Component {
           'type': 'Feature',
           'properties': {
             region: region,
-            geoType: 'region'
+            geoType: 'region',
+
           },
           'geometry': topojson.merge(
             geodata, geodata.objects.collection.geometries
@@ -294,9 +297,43 @@ class DataExplorer extends React.Component {
   }
 
   componentWillReceiveProps (nextProps) {
+   //alert("will")
     if (nextProps.params.type && nextProps.params.type !== this.state.activeAnalysis) {
       this.setState({ activeAnalysis: nextProps.params.type })
     }
+   if (window.year !== this.state.activeYear) {
+    alert("in if")
+    this.state.activeYear = window.year
+    alert("willrec year: "+this.state.activeYear)
+    //this.setState({ activeAnalysis: this.state.activeAnalysis })
+    //this.props.analyses[this.state.activeAnalysis] =
+    this.setActiveAnalysis(this.state.activeAnalysis,"activeAnalysis")
+    //this.setActiveAnalysis("None","activeCategory")
+    this.setActiveAnalysis('Overall',"activeCategory")
+    alert("willrec -- loadanalysis year: " + window.year)
+
+    this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, window.year)
+
+
+
+
+
+
+    /*  setActiveAnalysis (cat, stateKey) {
+    let updateKey = stateKey || 'activeAnalysis'
+    if (updateKey === 'activeAnalysis') {
+      this.props.router.push('/data/'+ window.year + '/' + cat)
+    }
+    var update = {}
+    update[updateKey] = cat
+    this.setState(update)
+  }*/
+    //this.setState({ activeYear: window.year })
+    //alert(this.state.activeAnalysis)
+    //alert(this.state.activeCategory)
+    //this.props.router.push('/data/'+ window.year + '/' + this.state.activeAnalysis)
+    //this.props.router.push('/data/'+ window.year + '/' + cat)
+   }
   }
 
   numberFormat (val) {
@@ -312,7 +349,7 @@ class DataExplorer extends React.Component {
   dataTable () {
     if (!this.props.analyses[this.state.activeAnalysis] ||
         !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]) {
-      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel)
+      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, this.state.activeYear)
       return <span />
     }
     var data = this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]
@@ -515,12 +552,32 @@ class DataExplorer extends React.Component {
   }
 
   renderMap () {
+   alert("renderMap() :: window.year, state.year" + window.year + " " + this.state.activeYear)
+
+
+   //
+   //
+   // (window.year +', stateYear: '+ this.state.activeYear)
+   //alert('render: '+this.props.analyses[this.state.activeYear])
+
+   if (window.year != this.state.activeYear){  //added by me
+    alert('window.year: '+ window.year)
+    //this.setState({ activeYear: window.year })
+    this.state.activeYear = window.year
+    alert('this.state: '+ this.state.activeYear)
+    this.render()
+   }
+
     if (!this.props.analyses[this.state.activeAnalysis] ||
         !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel] ||
         !this.state.childGeo || !this.state.regionGeo) {
-      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel)
+
+      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, window.year)
       return <div style={{ minHeight:'100vh' }}> Loading ... {Object.keys(this.props.analyses)}</div>
     }
+    // got these 2 lines out of if.. as even if analysis matches, year might have changed
+
+
 
     var data = this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]
     var regionGeo = {
@@ -575,6 +632,7 @@ class DataExplorer extends React.Component {
           activeCategory={this.state.activeCategory}
           activeAnalysis={this.state.activeAnalysis}
           educationLevel={this.state.educationLevel}
+          activeYear={window.year} //added by me
           childGeo={childGeo}
         />
       </div>
@@ -582,20 +640,30 @@ class DataExplorer extends React.Component {
   }
 
   setActiveCategory (cat) {
+    alert(cat)
     this.setState({ activeCategory:cat })
+    //this.props.router.push('/data/'+ window.year + '/' + cat)
   }
 
   setActiveAnalysis (cat, stateKey) {
+   alert("setActiveAnalysis: cat:"+cat+ "updateKey: "+ stateKey)
     let updateKey = stateKey || 'activeAnalysis'
     if (updateKey === 'activeAnalysis') {
-      this.props.router.push('/data/' + cat)
+      this.props.router.push('/data/'+ window.year + '/' + cat)
     }
     var update = {}
     update[updateKey] = cat
     this.setState(update)
   }
 
+ setActiveYear = (year)=> {
+      //this.state.activeYear = year
+      //alert("year set to " + this.state.activeYear)
+      //window.year = year
+  }
+
   render () {
+   alert("render() :: window.year, state.year" + window.year + " " +this.state.activeYear)
     return (
       <div className='container-fluid text-center DataExplorer'>
         <div className='row'>
@@ -629,10 +697,8 @@ class DataExplorer extends React.Component {
           </div>
           <div className='col-md-9 sidebar DataViewer' id='DataViewer' style={{ overflow:'hidden' }}>
             {this.renderLegend(gradeScale)}
-            {
-               this.renderMap()}
-            {this.dataTable()
-            }
+            {this.renderMap()}
+            {this.dataTable()}
           </div>
         </div>
       </div>

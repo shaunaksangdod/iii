@@ -14,14 +14,14 @@ const store = createStore(initialState)
 // Render Setup
 // ========================================================
 const MOUNT_NODE = document.getElementById('root')
-
+//window.year = '2014'
 let render = () => {
   const routes = require('./routes/index').default(store)
 
   ReactDOM.render(
     <Provider store={store}>
       <div style={{ height: '100%' }}>
-        <Router history={browserHistory} children={routes} />
+        <Router history={browserHistory} children={routes}/>
       </div>
     </Provider>,
     MOUNT_NODE
