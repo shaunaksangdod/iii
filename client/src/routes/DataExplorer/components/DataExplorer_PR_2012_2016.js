@@ -186,49 +186,33 @@ const education = {
 
 const analyses = {
   nativity: {
-    name: 'The Effects of Nativity Status',
+    name: 'The Effects of Ethnicity',
     info: 'Effects of nativity status on economic outcomes of foreign-Born New Yorkers.',
     type: 'activeAnalysis',
     subcats: {
       'nativity': {
-        name: 'Foreign-Born and Native-Born',
-        type: 'activeAnalysis',
-        subcats: education
-      },
-      'nativity_women': {
-        name: 'Foreign-Born Women and Native-Born Women',
+        name: 'Foreign-Born Hispanic and Native-Born Hispanic',
         type: 'activeAnalysis',
         subcats: education
       }
     }
   },
   race: {
-    name: 'The Effects of Race',
+    name: 'The Effects of Nativity on Hispanic Communities',
     info:'Effects of nativity status and race on economic outcomes of foreign-born New Yorkers.',
     subcats: {
       'race': {
-        name:'Foreign-Born people of color and Native-Born non-hispanic white',
-        type: 'activeAnalysis',
-        subcats: education
-      },
-      'race_women': {
-        name:'Foreign-Born Women of color and Native-born non-hispanic white women',
+        name:'Foreign-Born Hispanic people of color and Foreign-Born white Hispanic',
         type: 'activeAnalysis',
         subcats: education
       }
     }
   },
   gender: {
-    name: 'The Effects of Gender',
+    name: 'The Effects of Place of birth on Puerto Rican communities',
     info: 'Effects of nativity status on economic outcomes of foreign-born women.',
-    heading: 'Foreign Born Women and Foreign Born Men',
+    heading: 'Foreign Born Hispanic Women and Foreign Born Hispanic Men',
     subcats: education
-  },
-  vulnerable: {
-    name: 'The Effects of Low English Proficiency and Educational Attainment',
-    info: 'Measures economic outcomes for the foreign-born with no high school diploma and low English proficiency.',
-    heading: 'Foreign-born with no high school diploma and low English proficiency',
-    subcats: cats
   }
 }
 const Blues = ['rgb(5,48,97)', 'rgb(33,102,172)', 'rgb(67,147,195)', 'rgb(146,197,222)', 'rgb(209,229,240)',
@@ -247,7 +231,7 @@ class DataExplorer extends React.Component {
       puma_data: [],
       activeCategory: Object.keys(cats)[0],
       activeAnalysis: this.props.params.type || 'nativity',
-      activeYear: '2014', //added by me
+      activeYear: 'PR_2016', //added by me
       educationLevel: 'babs',
       activeRegions: null,
       geoData: null,
@@ -524,7 +508,7 @@ class DataExplorer extends React.Component {
         !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel] ||
         !this.state.childGeo || !this.state.regionGeo) {
 
-      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, '2014')
+      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, 'PR_2016')
       return <div style={{ minHeight:'100vh' }}> Loading ... {Object.keys(this.props.analyses)}</div>
     }
     // got these 2 lines out of if.. as even if analysis matches, year might have changed
@@ -601,7 +585,7 @@ class DataExplorer extends React.Component {
     let updateKey = stateKey || 'activeAnalysis'
     if (updateKey === 'activeAnalysis') {
      window.x = 1
-      this.props.router.push('/data/'+ '2014' + '/' + cat)
+      this.props.router.push('/data/'+ 'PR_2012_2016' + '/' + cat)
     }
     var update = {}
     update[updateKey] = cat

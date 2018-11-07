@@ -21,7 +21,7 @@ class NavDropdown extends React.Component {
         <a className='nav-link dropdown-toggle' aria-expanded={this.state.open}>
           {this.props.title}
         </a>
-        <div className='dropdown-menu' style={{ display: this.state.open ? 'block' : 'none' }}>
+        <div className='dropdown-menu' style={{ display: this.state.open ? 'block' : 'none' , minWidth: '250px'}}>
           {this.props.children}
         </div>
 

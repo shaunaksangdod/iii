@@ -2,6 +2,7 @@ import { combineReducers } from 'redux'
 import locationReducer from './location'
 import analysis from 'store/modules/analysis'
 
+
 export const makeRootReducer = (asyncReducers) => {
   return combineReducers({
     analysis,

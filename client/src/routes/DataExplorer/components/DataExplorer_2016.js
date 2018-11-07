@@ -4,7 +4,7 @@ import * as topojson from 'topojson'
 // Redux
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
-import { loadAnalyses } from 'store/modules/analysis'
+import { loadAnalyses } from 'store/modules/analysis_2016'
 // Components
 import ResponsiveMap from 'components/ResponsiveMap'
 import Sidebar from 'components/Sidebar/SidebarThree'
@@ -189,6 +189,7 @@ const analyses = {
     name: 'The Effects of Nativity Status',
     info: 'Effects of nativity status on economic outcomes of foreign-Born New Yorkers.',
     type: 'activeAnalysis',
+    url: '/data/2016/nativity',
     subcats: {
       'nativity': {
         name: 'Foreign-Born and Native-Born',
@@ -205,6 +206,7 @@ const analyses = {
   race: {
     name: 'The Effects of Race',
     info:'Effects of nativity status and race on economic outcomes of foreign-born New Yorkers.',
+    url: '/data/2016/race',
     subcats: {
       'race': {
         name:'Foreign-Born people of color and Native-Born non-hispanic white',
@@ -222,12 +224,14 @@ const analyses = {
     name: 'The Effects of Gender',
     info: 'Effects of nativity status on economic outcomes of foreign-born women.',
     heading: 'Foreign Born Women and Foreign Born Men',
+    url: '/data/2016/gender',
     subcats: education
   },
   vulnerable: {
     name: 'The Effects of Low English Proficiency and Educational Attainment',
     info: 'Measures economic outcomes for the foreign-born with no high school diploma and low English proficiency.',
     heading: 'Foreign-born with no high school diploma and low English proficiency',
+    url: '/data/2016/vulnerable',
     subcats: cats
   }
 }
@@ -240,14 +244,14 @@ const gradeScale = d3.scaleOrdinal()
 // ['rgb(0,104,55)', 'rgb(26,152,80)', 'rgb(102,189,99)', 'rgb(166,217,106)', 'rgb(217,239,139)', 'rgb(254,224,139)', 'rgb(253,174,97)', 'rgb(244,109,67)', 'rgb(215,48,39)', 'rgb(165,0,38)']
 // ['#08306b', '#08519c', '#2171b5', '#4292c6', '#6baed6', '#9ecae1', '#c6dbef', '#deebf7', '#f7fbff', '#fff']
 
-class DataExplorer extends React.Component {
+class DataExplorer_2016 extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
       puma_data: [],
       activeCategory: Object.keys(cats)[0],
       activeAnalysis: this.props.params.type || 'nativity',
-      activeYear: '2014', //added by me
+      activeYear: '2016', //added by me
       educationLevel: 'babs',
       activeRegions: null,
       geoData: null,
@@ -294,13 +298,18 @@ class DataExplorer extends React.Component {
         regionGeo: regionGeo
       })
     })
+
   }
 
   componentWillReceiveProps (nextProps) {
    //alert("will")
+
     if (nextProps.params.type && nextProps.params.type !== this.state.activeAnalysis) {
       this.setState({ activeAnalysis: nextProps.params.type })
+     //storeState.analyses = {}
+     //this.params.storeState.
     }
+
   }
 
   numberFormat (val) {
@@ -314,12 +323,12 @@ class DataExplorer extends React.Component {
   }
 
   dataTable () {
-    if (!this.props.analyses[this.state.activeAnalysis] ||
-        !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]) {
+    if (!this.props.analyses_2016[this.state.activeAnalysis] ||
+        !this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel]) {
       this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, this.state.activeYear)
       return <span />
     }
-    var data = this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]
+    var data = this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel]
     var regionFilter = this.state.activeRegion &&
       regions[this.state.activeRegion]
       ? regions[this.state.activeRegion] : Object.keys(regions)
@@ -519,19 +528,19 @@ class DataExplorer extends React.Component {
   }
 
   renderMap () {
-    if (window.x === 1){ window.x = 2; window.location.reload()}
-    if (!this.props.analyses[this.state.activeAnalysis] ||
-        !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel] ||
-        !this.state.childGeo || !this.state.regionGeo) {
+   if (window.x === 1){ window.x = 2; window.location.reload()}
+    if (!this.props.analyses_2016[this.state.activeAnalysis] ||
+        !this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel] ||
+        !this.state.childGeo || !this.state.regionGeo || (this.props.analyses_2016 == null)) {
 
-      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, '2014')
-      return <div style={{ minHeight:'100vh' }}> Loading ... {Object.keys(this.props.analyses)}</div>
+      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, '2016')
+      return <div style={{ minHeight:'100vh' }}> Loading ... {Object.keys(this.props.analyses_2016)}</div>
     }
     // got these 2 lines out of if.. as even if analysis matches, year might have changed
 
 
 
-    var data = this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]
+    var data = this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel]
     var regionGeo = {
       'type': 'FeatureCollection',
       'features': []
@@ -600,8 +609,13 @@ class DataExplorer extends React.Component {
    //alert("setActiveAnalysis: cat:"+cat+ "updateKey: "+ stateKey)
     let updateKey = stateKey || 'activeAnalysis'
     if (updateKey === 'activeAnalysis') {
+     //alert('in setAnalysis')
+     //alert(window.location.hostname+':'+window.location.port+'/data/'+ '2016' + '/' + cat)
+     //window.location.assign(window.location.hostname+':'+window.location.port+'/data/'+ '2016' + '/' + cat)
+     //this.props.analyses_2016.forEach(alert(item))
+     //this.props.analyses_2016[this.state.]
      window.x = 1
-      this.props.router.push('/data/'+ '2014' + '/' + cat)
+     this.props.router.push('/data/'+ '2016' + '/' + cat)
     }
     var update = {}
     update[updateKey] = cat
@@ -652,6 +666,8 @@ class DataExplorer extends React.Component {
             {this.renderLegend(gradeScale)}
             {this.renderMap()}
             {this.dataTable()}
+
+
           </div>
         </div>
       </div>
@@ -659,14 +675,14 @@ class DataExplorer extends React.Component {
   }
 }
 
-DataExplorer.propTypes = {
+DataExplorer_2016.propTypes = {
   params : React.PropTypes.object.isRequired,
   loadAnalyses : React.PropTypes.func.isRequired,
-  analyses : React.PropTypes.object.isRequired
+  analyses_2016 : React.PropTypes.object.isRequired
 }
 
 const mapStateToProps = (state) => ({
-  analyses : state.analysis
+  analyses_2016 : state.analysis
 })
 
-export default connect(mapStateToProps, { loadAnalyses })(withRouter(DataExplorer))
+export default connect(mapStateToProps, { loadAnalyses })(withRouter(DataExplorer_2016))

@@ -6,7 +6,7 @@ class Team extends React.Component {
       <div className='container-fluid' style={{backgroundColor: '#fff'}}>
         <div className='container about-content' >
           <div className='row'>
-            <div className='col-xs-12' style={{paddingTop: 20}}>
+            <div className='col-xs-12' style={{paddingTop: 20,textAlign: 'justify'}}>
               <p>
                 <h3>Project Director</h3>
                 <h4>Dina Refki, D.A</h4>
@@ -66,19 +66,49 @@ class Team extends React.Component {
                 He has worked as Dr Catherine Lawson's Research Assistant since 2007.
                 He is the lead developer behind all of the projects in AVAIL's portfolio.
               </p>
+
+
+              <h3>Data Analysts and Developers</h3>
+              <table width="100%">
+               <td>
+                <tr><h4>Shaunak Sangdod </h4></tr>
+                <tr>Email: <a href='mailto:ssangdod@albany.edu'>ssangdod@albany.edu</a></tr>
+               </td>
+               <td>
+                <tr><h4>Nayanika Bhargava </h4></tr>
+                <tr>Email: <a href='mailto:nbhargava@albany.edu'>nbhargava@albany.edu</a></tr>
+               </td>
+               </table>
+              <br />
+              <p>
+              <strong>Developers/Student Assistants - Computer Science Department - University at Albany, SUNY</strong> <br/>
+              <strong><i>Center for Women in Government & Civil Society, Rockefeller College of Public Affairs & Policy, University at Albany, SUNY</i></strong><br />
+               <br/>
+               Shaunak and Nayanika are Computer Science graduates from UAlbany, class of 2018. In this project, they developed and implemented data analysis tool for ACS PUMS data to optimize statistical efficiency and quality.
+               They also modified this portal to reflect new data analyses along with layout and functions.             </p>
               <hr />
               <p>
-                The Center for Women in Government & Civil Society acknowledges the
-                exceptionally competent assistance of the following graduate students:
-                <br /><br />
-                <h4>Diana Abbas</h4>
-                <h4>Kapil Gupta</h4>
-                <h4>Eunhyoung Kim</h4>
-                <h4>Seunghee Kim</h4>
-                <h4>Sungeun Kim</h4>
-                <h4>Yoonhye Kim</h4>
-                <h4>Yuhao Li</h4>
-                <h4>Elipha Pradhananga</h4>
+               <h3>Graduate Student Assistants:</h3>
+               The Center for Women in Government & Civil Society acknowledges the exceptionally competent assistance of the following graduate students:
+
+               <br /><br />
+               <table width="100%">
+                <td>
+                 <tr><h4>Diana Abbas</h4></tr>
+                 <tr><h4>Sungeun Kim</h4></tr>
+                 <tr><h4>Seunghee Cho</h4></tr>
+                </td>
+                <td>
+                 <tr><h4>Kapil Gupta</h4></tr>
+                 <tr><h4>Yoonhye Kim</h4></tr>
+                 <tr><h4>Elipha Pradhananga</h4></tr>
+                </td>
+                <td>
+                 <tr><h4>Eunhyoung Kim</h4></tr>
+                 <tr><h4>Yuhao Li</h4></tr>
+                 <tr><h4>Jisang Kim</h4></tr>
+                </td>
+               </table>
               </p>
             </div>
           </div>

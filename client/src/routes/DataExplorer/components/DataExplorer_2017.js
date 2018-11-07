@@ -247,7 +247,7 @@ class DataExplorer extends React.Component {
       puma_data: [],
       activeCategory: Object.keys(cats)[0],
       activeAnalysis: this.props.params.type || 'nativity',
-      activeYear: '2014', //added by me
+      activeYear: '2017', //added by me
       educationLevel: 'babs',
       activeRegions: null,
       geoData: null,
@@ -524,7 +524,7 @@ class DataExplorer extends React.Component {
         !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel] ||
         !this.state.childGeo || !this.state.regionGeo) {
 
-      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, '2014')
+      this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, '2017')
       return <div style={{ minHeight:'100vh' }}> Loading ... {Object.keys(this.props.analyses)}</div>
     }
     // got these 2 lines out of if.. as even if analysis matches, year might have changed
@@ -601,7 +601,7 @@ class DataExplorer extends React.Component {
     let updateKey = stateKey || 'activeAnalysis'
     if (updateKey === 'activeAnalysis') {
      window.x = 1
-      this.props.router.push('/data/'+ '2014' + '/' + cat)
+      this.props.router.push('/data/'+ '2017' + '/' + cat)
     }
     var update = {}
     update[updateKey] = cat
