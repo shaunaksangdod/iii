@@ -1,282 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebfb748a-5ac0-436d-8e18-1ec089112e75" name="Default Changelist" comment="Production build">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/2.3.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/routes/Home/assets/statue-of-liberty-b&amp;w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/routes/Home/assets/statue_of_liberty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2014/parsed_group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2016/parsed_group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/2017/parsed_group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/img/.4117268214_3548ebbc56_o.jpg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/Guidelines for Data Download/Data Guideline January 2016 - Version 3.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group10_puma_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group10_region_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group1_puma_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group1_region_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group2_puma_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group2_region_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group3_puma_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group3_region_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group4_puma_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group4_region_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group5_puma_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group5_region_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group6_puma_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group6_puma_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group6_region_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group7_puma_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group8_puma_hs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group9_puma_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/csv/final/group9_region_babs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/FBALL Female-Male/FINAL Scores - Scores &amp; Grades -FBALL F-M.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/FBALL Female-Male/Percentages-FBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/FBALL Female-Male/STEP-1- Raw Data_FB All.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/FBALL Female-Male/STEP-2-Calculation Percentages-FBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/FBALL Female-Male/STEP-3-Calculation - Disparities -FBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/FBALL Female-Male/STEP-4- Calculation - Scores &amp; Grades -FBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/Final Disparities &amp; Scores &amp; Grades NB-FB ALL -F.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/Percentages-FBALL-F.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/Percentages-NBALL-F.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/STEP-1-Raw Data/Raw Data_FB All.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/STEP-1-Raw Data/Raw Data_NB ALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/STEP-2-Calculation Pecentages/Calculation Percentages-FBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/STEP-2-Calculation Pecentages/Calculation Percentages-NBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/STEP-3-Calculation - Disparities/Calculation - Disparities.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/NBFBAll - Female/STEP-4-Calculation Scores &amp; Grades/Calculation - Scores &amp; Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/FINAL Disparities &amp; Scores &amp; Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/Percentages NBWNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/Percentages-FBRace - F.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/STEP-1-Raw Data/Raw Data FB-Race Data (To be used).xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/STEP-1-Raw Data/Raw Data NB WNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/STEP-2-Calculation Percentages/Calculation Percentages-FBRace.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/STEP-2-Calculation Percentages/Calculations-Percentages NBWNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/STEP-3-Calculation Disparities/Calculation- Disparities-NBWNH-F-FBRace-F.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/gender/Race Affiliated/STEP-4-Calculation Scores &amp; Grades/Calculation- Scores &amp; Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Data Guideline January 2016 - Version 3.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/FINAL Disparity Ratio-Scores-Grades FBALL-NBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Percentages-FBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Percentages-NBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Step- 2 Calculation - Percentages/Calculation Percentages-FBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Step- 2 Calculation - Percentages/Calculation Percentages-NBALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Step-1 Raw Data/Raw Data_FB All.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Step-1 Raw Data/Raw Data_NB ALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Step-3 Calculation - Disparity/Disparity Ratio and Calculations.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/nativity/FBALL_NBALL/Step-4 Calculation-Scores-Grades/Scores-Grades Calculation.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/FINAL Disparity-Scores-Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/Percentages NBWNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/Percentages- FBRace.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/Step-1-Raw Data/Raw Data FB-Race Data (To be used).xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/Step-1-Raw Data/Raw Data NB WNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/Step-2-Calculations-Percentages/Calculation Percentages-FBRace.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/Step-2-Calculations-Percentages/Calculations-Percentages NBWNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/Step-3-Calculation- Disparities/Calculation-Disparities.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/145 puma regions/race/Race Affiliated/Step-4-Calculation - Scores &amp;Grades/Calculation - Scores &amp; Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/NEW STEP - 2 Calculations/FBAll.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/NEW STEP - 2 Calculations/FB_RaceAffiliated.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/NEW STEP - 2 Calculations/NBAll.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/NEW STEP - 2 Calculations/NBWNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-2-Percentages/Calculated_FB All.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-2-Percentages/Calculated_FB_People of Color.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-2-Percentages/Calculated_NB_All_.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-2-Percentages/Calculated_NB_People of Color.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-3- Disparity Ratios/Disparity Ratios.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-3- Disparity Ratios/DisparityRatios_FBPeopleofColor vs NBWNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-3- Disparity Ratios/DisparityRatios_NBFB_All.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-4- Calculation of Scores/(FBAll-NBAll) Disparity Ratio-Scores-Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-4- Calculation of Scores/(Race) Disparity Ratio-Scores-Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/STEP-4- Calculation of Scores/convert_csv.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/step-1-raw data/Foreign Born/FB_All_.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/step-1-raw data/Foreign Born/FB_NotWhite_.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/step-1-raw data/Foreign Born/FB_WNH_.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/step-1-raw data/Foreign Born/FB_WhiteHispanic.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/step-1-raw data/Native Born/NB WNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/analysis/step-1-raw data/Native Born/NB_ALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/convert_xls.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/gender-analysis/NBFBAll - Female/STEP 1 RAW data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/gender-analysis/NBFBAll - Female/STEP 2 Caluclations.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/gender-analysis/NBFBAll - Female/STEP 3 - Scores and Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/gender-analysis/fball_male_femal/STEP 1 -RAW DATA.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/gender-analysis/fball_male_femal/STEP 2 - Calculations.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/data tracking/gender-analysis/fball_male_femal/Step 3 Scores and Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/Group1and2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/convert_xls.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group10.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group11.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group5.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group6.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group7.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group8.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v1/group9.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group10.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group11.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group5.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group6.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group7.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group8.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/csv_v2/group9.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group11.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group11.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group1and2.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group1and2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group3and4.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group3and4.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group5and6.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group5and6.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group7and8.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group7and8.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group9and10.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v1/Group9and10.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v2/Group11.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v2/Group1and2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v2/Group3and4.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v2/Group5and6.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v2/Group7and8.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/final_raw/xls_v2/Group9and10.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/NEW STEP - 2 Calculations/FBAll.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/NEW STEP - 2 Calculations/FB_RaceAffiliated.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/NEW STEP - 2 Calculations/NBAll.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/NEW STEP - 2 Calculations/NBWNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-2-Percentages/Calculated_FB All.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-2-Percentages/Calculated_FB_People of Color.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-2-Percentages/Calculated_NB_All_.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-2-Percentages/Calculated_NB_People of Color.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-3- Disparity Ratios/Disparity Ratios.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-3- Disparity Ratios/DisparityRatios_FBPeopleofColor vs NBWNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-3- Disparity Ratios/DisparityRatios_NBFB_All.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-4- Calculation of Scores/(FBAll-NBAll) Disparity Ratio-Scores-Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/STEP-4- Calculation of Scores/(Race) Disparity Ratio-Scores-Grades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/step-1-raw data/Foreign Born/FB_All_.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/step-1-raw data/Foreign Born/FB_NotWhite_.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/step-1-raw data/Foreign Born/FB_WNH_.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/step-1-raw data/Foreign Born/FB_WhiteHispanic.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/step-1-raw data/Native Born/NB WNH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/analysis/step-1-raw data/Native Born/NB_ALL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/raw/convert_xls.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2014/template_format.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geo/tl_2010_36_puma10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geo/tl_2010_36_puma10.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geo/tl_2010_36_puma10_topo.json" afterDir="false" />
+    <list default="true" id="ebfb748a-5ac0-436d-8e18-1ec089112e75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/bin/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/server/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/About/components/AboutView.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/About/components/AboutView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/About/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/About/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_HISP_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_HISP_2016.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_2012_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_2012_2016.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/Home/components/HomeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Home/components/HomeView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/Methods/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Methods/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/Pubs/components/Publications.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Pubs/components/Publications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/Pubs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Pubs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/Research/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Research/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/modules/analysis.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/modules/analysis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/modules/analysis_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/modules/analysis_2016.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -404,15 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/components/Nav/Nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="171" column="71" selection-start-line="171" selection-start-column="71" selection-end-line="171" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#234#280#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -435,7 +158,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/routes/Home/components/HomeView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -565,8 +288,8 @@
         <option value="$PROJECT_DIR$/client/dist/about/index.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/client/src/routes/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Nav/Nav.js" />
         <option value="$PROJECT_DIR$/client/server/main.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Nav/Nav.js" />
       </list>
     </option>
   </component>
@@ -678,7 +401,7 @@
     <property name="SearchEverywhereHistoryKey" value="nav&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Nav/Nav.js&#10;webpack&#9;null&#9;null&#10;clien&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/node_modules/webpack-hot-middleware/example/client.js&#10;ser&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;server&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;htacce&#9;null&#9;null&#10;server.&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;nav.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Nav/Nav.js&#10;bundle.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/tests/test-bundler.js&#10;index.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/config/index.js&#10;dropdown-menu&#9;null&#9;null&#10;vulnerable&#9;null&#9;null&#10;homev&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/routes/Home/components/HomeView.js&#10;statue&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/static/img/.statue-of-liberty-b&amp;w.jpg.icloud&#10;sidebar.&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Sidebar/Sidebar.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543507703071" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543508659533" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -730,7 +453,7 @@
       <workItem from="1541776055690" duration="7581000" />
       <workItem from="1542039581394" duration="6480000" />
       <workItem from="1542052337295" duration="8653000" />
-      <workItem from="1542210392152" duration="19119000" />
+      <workItem from="1542210392152" duration="19475000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt 1">
       <created>1540568958774</created>
@@ -746,11 +469,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541610851776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Production build">
+      <created>1543509551985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543509551986</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149400000" />
+    <option name="totallyTimeSpent" value="149756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -762,14 +492,14 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.19041096" />
+      <window_info anchor="bottom" id="Messages" weight="0.19041096" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.5410959" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -1125,17 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Nav/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="171" column="71" selection-start-line="171" selection-start-column="71" selection-end-line="171" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#234#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1147,6 +866,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Nav/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

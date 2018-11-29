@@ -1,6 +1,5 @@
 import React from 'react'
 import NavDropdown from 'components/utils/NavDropdown'
-//import DataExplorer from '/Users/shaun/Documents/iii/client/src/routes/DataExplorer/components/DataExplorer.js' //ToDo need to chenge to relative path
 import { IndexLink, Link } from 'react-router'
 import './Nav.scss'
 const studyAreas = [
