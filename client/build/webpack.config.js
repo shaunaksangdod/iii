@@ -20,7 +20,7 @@ const webpackConfig = {
     xmlhttprequest: '{XMLHttpRequest:XMLHttpRequest}'
   }],
   resolve : {
-    root       : paths.client(),
+    root       : paths.client(), //change here
     extensions : ['', '.js', '.jsx', '.json']
   },
   module : {}
@@ -29,7 +29,6 @@ const webpackConfig = {
 // Entry Points
 // ------------------------------------
 const APP_ENTRY = paths.client('main.js')
-
 webpackConfig.entry = {
   app : __DEV__
     ? [APP_ENTRY].concat(`webpack-hot-middleware/client?path=${config.compiler_public_path}__webpack_hmr`)
@@ -43,7 +42,8 @@ webpackConfig.entry = {
 webpackConfig.output = {
   filename   : `[name].[${config.compiler_hash_type}].js`,
   path       : paths.dist(),
-  publicPath : config.compiler_public_path
+  //publicPath : config.compiler_public_path
+ publicPath : '/womeningov/iii/' //change here
 }
 
 // ------------------------------------

@@ -13,16 +13,16 @@ import DataOverview from './DataOverview'
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
 export const createRoutes = (store) => ({
-  path        : '/',
+  path        : '/womeningov/iii/',
   component   : CoreLayout,
   indexRoute  : Home,
   childRoutes : [
     Explorer(store),
-   ExplorerType_2014(store),
-   ExplorerType_2016(store),
-   ExplorerType_2017(store),
-   ExplorerType_HISP_2016(store),
-   ExplorerType_PR_2012_2016(store),
+    ExplorerType_2014(store),
+    ExplorerType_2016(store),
+    ExplorerType_2017(store),
+    ExplorerType_HISP_2016(store),
+    ExplorerType_PR_2012_2016(store),
     Login(store),
     About(store),
     Methods(store),

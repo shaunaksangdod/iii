@@ -59,7 +59,7 @@ export const loadAnalyses = (type, education, year) => {
  //alert('Loading year: '+year)
 
   return (dispatch) => {
-    return fetch(`/${year}/${dataSources[type][education]}`)
+    return fetch(`/womeningov/iii/${year}/${dataSources[type][education]}`)
       .then(response => response.json())
       .then(json => {
         return dispatch(receiveAnalysis(type, education, json))

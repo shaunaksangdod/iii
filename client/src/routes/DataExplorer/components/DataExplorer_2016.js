@@ -268,7 +268,7 @@ class DataExplorer_2016 extends React.Component {
   }
 
   componentDidMount () {
-    d3.json('/geo/ny_puma_geo.json', (err, geodata) => {
+    d3.json('/womeningov/iii/geo/ny_puma_geo.json', (err, geodata) => {
       console.log('geodata')
       if (err) console.log('error', err)
       var regionGeo = {
@@ -528,7 +528,7 @@ class DataExplorer_2016 extends React.Component {
   }
 
   renderMap () {
-   if (window.x === 1){ window.x = 2; window.location.reload()}
+   if (window.x === 1){ window.x = 2; this.props.router.push('/womeningov/iii/data/'+ '2016' + '/' + this.state.activeAnalysis)}
     if (!this.props.analyses_2016[this.state.activeAnalysis] ||
         !this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel] ||
         !this.state.childGeo || !this.state.regionGeo || (this.props.analyses_2016 == null)) {
@@ -615,7 +615,7 @@ class DataExplorer_2016 extends React.Component {
      //this.props.analyses_2016.forEach(alert(item))
      //this.props.analyses_2016[this.state.]
      window.x = 1
-     this.props.router.push('/data/'+ '2016' + '/' + cat)
+     this.props.router.push('/womeningov/iii/data/'+ '2016' + '/' + cat)
     }
     var update = {}
     update[updateKey] = cat
@@ -651,7 +651,7 @@ class DataExplorer_2016 extends React.Component {
                
                   <div className='col-md-2' style={{ textAlign:'center' }}>
                     <div style={{width:'100%', paddingBottom:2, paddingTop: 0}}>
-                      <img className='img-fluid' src='/img/doc_thumb.png' />
+                      <img className='img-fluid' src='/womeningov/iii/img/doc_thumb.png' />
                       
                     </div>
                   </div>

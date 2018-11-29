@@ -25,13 +25,13 @@ class HomeView extends React.Component {
                 </div>
                   <img
                     className='img-fluid'
-                    src='/img/Center-for-Women-in-Government-and-Civil-Society-pms124_black.png' style={{float: 'right'}} />
+                    src='/womeningov/iii/img/Center-for-Women-in-Government-and-Civil-Society-pms124_black.png' style={{float: 'right'}} />
                   <img
                     className='img-fluid'
-                    src='/img/logo-task-force-logo-color.jpg' style={{float: 'right', height:175, padding:5}} />
+                    src='/womeningov/iii/img/logo-task-force-logo-color.jpg' style={{float: 'right', height:175, padding:5}} />
                   <img
                     className='img-fluid'
-                    src='/img/seal-assembly-logo.jpg' style={{float: 'right', height:175, padding:5}} />
+                    src='/womeningov/iii/img/seal-assembly-logo.jpg' style={{float: 'right', height:175, padding:5}} />
               </div>
               <div className='col-md-8' style={{ height:'100vh', paddingRight: 0 }}>
                 <div style={{ height: '100%', overflowY:'scroll', padding: 30, textAlign:'justify' }} >
@@ -63,7 +63,7 @@ class WhyMeasure extends React.Component {
         <h1 style={{ textAlign:'center' }}>Why Measure Integration</h1>
         <p>
           <img
-            src='/img/3109320685_36e803978d_z.jpg'
+            src='/womeningov/iii/img/3109320685_36e803978d_z.jpg'
             style={{ width: 420, height: 320 }}
             className='img-responsive img-right' alt='Responsive image'
           />
@@ -95,7 +95,7 @@ class Meaning extends React.Component {
         <h1 style={{ textAlign:'center' }}>The Meaning and Complexity of Integration</h1>
         <p>
          <img
-            src='/img/14577783439_0fc897c193_z.jpg'
+            src='/womeningov/iii/img/14577783439_0fc897c193_z.jpg'
             style={{ width: 420, height: 260 }}
             className='img-responsive img-right' alt='Responsive image'
           />
@@ -122,7 +122,7 @@ class Meaning extends React.Component {
         to respond to the needs of foreign-born residents.</p>
         <p>
          <img
-            src='/img/14761932405_6b07344911_z.jpg'
+            src='/womeningov/iii/img/14761932405_6b07344911_z.jpg'
             style={{ width: 420, height: 260 }}
             className='img-responsive img-left' alt='Responsive image'
           />
@@ -177,7 +177,7 @@ class AboutSection extends React.Component {
                 development and growth to economically stagnant communities. It is a world where immigrants are vilified and condemned for usurping opportunities from natives, and
                 described as agents of crime and de-stabilization. These two worlds accurately capture the American experience.
         <br />
-        <p><img src='/img/3109323037_1324c68d5c_z.jpg' style={{ width: 420, height: 260 }} className='img-responsive img-right' alt='Responsive image' />
+        <p><img src='/womeningov/iii/img/3109323037_1324c68d5c_z.jpg' style={{ width: 420, height: 260 }} className='img-responsive img-right' alt='Responsive image' />
         </p>
         
         <p>In this work, we ask very familiar questions that so many before us grappled with. Is the American dream still alive for immigrants who come to our shores? Under
@@ -200,7 +200,7 @@ class AboutSection extends React.Component {
                 and local levels.</p>
          <p>
          <img
-            src='/img/3110152392_cd8bc646aa_z.jpg'
+            src='/womeningov/iii/img/3110152392_cd8bc646aa_z.jpg'
             style={{ width: 420, height: 260 }}
             className='img-responsive img-left' alt='Responsive image'
           />

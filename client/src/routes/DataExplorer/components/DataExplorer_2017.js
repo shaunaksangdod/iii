@@ -264,7 +264,7 @@ class DataExplorer extends React.Component {
   }
 
   componentDidMount () {
-    d3.json('/geo/ny_puma_geo.json', (err, geodata) => {
+    d3.json('/womeningov/iii/geo/ny_puma_geo.json', (err, geodata) => {
       console.log('geodata')
       if (err) console.log('error', err)
       var regionGeo = {
@@ -519,7 +519,7 @@ class DataExplorer extends React.Component {
   }
 
   renderMap () {
-    if (window.x === 1){ window.x = 2; window.location.reload()}
+    if (window.x === 1){ window.x = 2; this.props.router.push('/womeningov/iii/data/'+ '2017' + '/' + this.state.activeAnalysis)}
     if (!this.props.analyses[this.state.activeAnalysis] ||
         !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel] ||
         !this.state.childGeo || !this.state.regionGeo) {
@@ -601,7 +601,7 @@ class DataExplorer extends React.Component {
     let updateKey = stateKey || 'activeAnalysis'
     if (updateKey === 'activeAnalysis') {
      window.x = 1
-      this.props.router.push('/data/'+ '2017' + '/' + cat)
+      this.props.router.push('/womeningov/iii/data/'+ '2017' + '/' + cat)
     }
     var update = {}
     update[updateKey] = cat
@@ -637,7 +637,7 @@ class DataExplorer extends React.Component {
                
                   <div className='col-md-2' style={{ textAlign:'center' }}>
                     <div style={{width:'100%', paddingBottom:2, paddingTop: 0}}>
-                      <img className='img-fluid' src='/img/doc_thumb.png' />
+                      <img className='img-fluid' src='/womeningov/iii/img/doc_thumb.png' />
                       
                     </div>
                   </div>

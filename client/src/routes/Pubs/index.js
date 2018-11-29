@@ -1,6 +1,6 @@
 // Sync route definition
 export default (store) => ({
-  path : 'publications',
+  path : '/womeningov/iii/publications',
   /*  Async getComponent is only invoked when route matches   */
   getComponent (nextState, cb) {
     require.ensure([], (require) => {

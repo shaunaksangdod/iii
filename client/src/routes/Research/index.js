@@ -1,6 +1,6 @@
 // Sync route definition
 export default (store) => ({
-  path : 'research',
+  path : '/womeningov/iii/research',
   /*  Async getComponent is only invoked when route matches   */
   getComponent (nextState, cb) {
     /*  Webpack - use 'require.ensure' to create a split point

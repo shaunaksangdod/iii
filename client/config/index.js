@@ -3,18 +3,19 @@ const path = require('path')
 const debug = require('debug')('app:config')
 const argv = require('yargs').argv
 const ip = require('ip')
-
 debug('Creating default configuration.')
 // ========================================================
 // Default Configuration
 // ========================================================
+
 const config = {
   env : process.env.NODE_ENV || 'development',
 
   // ----------------------------------
   // Project Structure
   // ----------------------------------
-  path_base  : path.resolve(__dirname, '..'),
+  path_base  : path.resolve(__dirname, '..'), //change here
+
   dir_client : 'src',
   dir_dist   : 'dist',
   dir_server : 'server',
@@ -25,7 +26,9 @@ const config = {
   // ----------------------------------
  server_host : ip.address(), // use string 'localhost' to prevent exposure on local network
  server_port : process.env.PORT || 3000,
+ // some additional changes to solve refresh issue - Begin
 
+ // some additional changes to solve refresh issue - End
  //server_host : 'www.albany.edu/womeningov/iii', // use string 'localhost' to prevent exposure on local network
  //server_port : process.env.PORT || 3000,
 

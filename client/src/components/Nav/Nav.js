@@ -1,94 +1,94 @@
 import React from 'react'
 import NavDropdown from 'components/utils/NavDropdown'
-import DataExplorer from '/Users/shaun/Documents/iii/client/src/routes/DataExplorer/components/DataExplorer.js' //ToDo need to chenge to relative path
+//import DataExplorer from '/Users/shaun/Documents/iii/client/src/routes/DataExplorer/components/DataExplorer.js' //ToDo need to chenge to relative path
 import { IndexLink, Link } from 'react-router'
 import './Nav.scss'
 const studyAreas = [
   {
-    url: '/data/2014/nativity',
+    url: '/womeningov/iii/data/2014/nativity',
     text: 'The Effects of Nativity Status',
-    img: '/img/image_1.jpg'
+    img: '/womeningov/iii/img/image_1.jpg'
   },
   {
-    url: '/data/2014/race',
+    url: '/womeningov/iii/data/2014/race',
     text: 'The Effects of Race'
   },
   {
-    url: '/data/2014/gender',
+    url: '/womeningov/iii/data/2014/gender',
     text: 'The Effects of Gender'
   },
   {
-    url: '/data/2014/vulnerable',
+    url: '/womeningov/iii/data/2014/vulnerable',
     text: 'The Effects of Low English Proficiency & Educational Attainment'
   }
 ]
 const studyAreas_2016 = [
  {
-  url: '/data/2016/nativity',
+  url: '/womeningov/iii/data/2016/nativity',
   text: 'The Effects of Nativity Status',
-  img: '/img/image_1.jpg'
+  img: '/womeningov/iii/img/image_1.jpg'
  },
  {
-  url: '/data/2016/race',
+  url: '/womeningov/iii/data/2016/race',
   text: 'The Effects of Race'
  },
  {
-  url: '/data/2016/gender',
+  url: '/womeningov/iii/data/2016/gender',
   text: 'The Effects of Gender'
  },
  {
-  url: '/data/2016/vulnerable',
+  url: '/womeningov/iii/data/2016/vulnerable',
   text: 'The Effects of Low English Proficiency & Educational Attainment'
  }
 ]
 const studyAreas_2017 = [
  {
-  url: '/data/2017/nativity',
+  url: '/womeningov/iii/data/2017/nativity',
   text: 'The Effects of Nativity Status',
-  img: '/img/image_1.jpg'
+  img: '/womeningov/iii/img/image_1.jpg'
  },
  {
-  url: '/data/2017/race',
+  url: '/womeningov/iii/data/2017/race',
   text: 'The Effects of Race'
  },
  {
-  url: '/data/2017/gender',
+  url: '/womeningov/iii/data/2017/gender',
   text: 'The Effects of Gender'
  },
  {
-  url: '/data/2017/vulnerable',
+  url: '/womeningov/iii/data/2017/vulnerable',
   text: 'The Effects of Low English Proficiency & Educational Attainment'
  }
 ]
 
 const studyAreas_HISP_2016 = [
  {
-  url: '/data/HISP_2016/nativity',
+  url: '/womeningov/iii/data/HISP_2016/nativity',
   text: 'The Effects of Nativity Status',
   img: '/img/image_1.jpg'
  },
  {
-  url: '/data/HISP_2016/race',
+  url: '/womeningov/iii/data/HISP_2016/race',
   text: 'The Effects of Race'
  },
  {
-  url: '/data/HISP_2016/gender',
+  url: '/womeningov/iii/data/HISP_2016/gender',
   text: 'The Effects of Gender'
  }
 ]
 
 const studyAreas_PR_2012_2016 = [
  {
-  url: '/data/PR_2012_2016/nativity',
+  url: '/womeningov/iii/data/PR_2012_2016/nativity',
   text: 'The Effects of Nativity Status',
-  img: '/img/image_1.jpg'
+  img: '/womeningov/iii/img/image_1.jpg'
  },
  {
-  url: '/data/PR_2012_2016/race',
+  url: '/womeningov/iii/data/PR_2012_2016/race',
   text: 'The Effects of Race'
  },
  {
-  url: '/data/PR_2012_2016/gender',
+  url: '/womeningov/iii/data/PR_2012_2016/gender',
   text: 'The Effects of Gender'
  }
 ]
@@ -146,7 +146,7 @@ export const Nav = () => {
       </button>
 
       <div className='container'>
-        <IndexLink to='/' className='navbar-brand'>
+        <IndexLink to='/womeningov/iii/' className='navbar-brand'>
             Immigrant Integration Index
           </IndexLink>
         <div className='collapse navbar-toggleable-md' id='collapseEx2'>
@@ -156,20 +156,20 @@ export const Nav = () => {
             <ul className='nav navbar-nav hidden'>
 
               <li className='nav-item'>
-                <Link to='/' className='nav-link active'>HOME</Link>
+                <Link to='/womeningov/iii/' className='nav-link active'>HOME</Link>
               </li>
               <li className='nav-item'>
-                <Link to='/about' className='nav-link active'>ABOUT</Link>
+                <Link to='/womeningov/iii/about' className='nav-link active'>ABOUT</Link>
               </li>
               <li className='nav-item btn-group'>
                 <NavDropdown title={<span>DATA EXPLORER</span>}>
-                 <menu id={'menu_2014'} onMouseEnter={toggle_menu}>ACS PUMS NY 2014
+                 <menu id={'menu_2014'} onMouseEnter={toggle_menu}>2014
                   <menu id={'links'} style={{display: 'none'}}>{links_2014}</menu>
                  </menu>
-                 <menu id={'menu_2016'} onMouseEnter={toggle_menu}>ACS PUMS NY 2016
+                 <menu id={'menu_2016'} onMouseEnter={toggle_menu}>2016
                   <menu id={'links'} style={{display: 'none'}}>{links_2016}</menu>
                  </menu>
-                 <menu id={'menu_2017'} onMouseEnter={toggle_menu}>ACS PUMS NY 2017
+                 <menu id={'menu_2017'} onMouseEnter={toggle_menu}>2017
                   <menu id={'links'} style={{display: 'none'}}>{links_2017}</menu>
                  </menu>
                  <menu id={'menu_HISP_2016'} onMouseEnter={toggle_menu}>Hispanic 2012-2016
@@ -181,17 +181,11 @@ export const Nav = () => {
                 </NavDropdown>
               </li>
               <li className='nav-item'>
-                <Link to='/research' className='nav-link active'>METHODOLOGY</Link>
+                <Link to='/womeningov/iii/research' className='nav-link active'>METHODOLOGY</Link>
               </li>
               <li className='nav-item'>
-                <Link to='/publications' className='nav-link active'>PUBLICATIONS</Link>
+                <Link to='/womeningov/iii/team' className='nav-link active'>TEAM</Link>
               </li>
-              <li className='nav-item'>
-                <Link to='/team' className='nav-link active'>TEAM</Link>
-              </li>
-             <li className='nav-item'>
-              <Link className='nav-link active'>{window.year}</Link>
-             </li>
             </ul>
           </form>
         </div>

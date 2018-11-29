@@ -25,12 +25,12 @@ class HomeView extends React.Component {
 
    renderFactSheet (url, name) {
     return (
-      <a href={'/pubs/' + url} target='_blank'>
+      <a href={'/womeningov/iii/pubs/' + url} target='_blank'>
         <div className='row' style={{ backgroundColor: '#fff', border: '2px solid rgb(67, 147, 195)', paddingTop: 10, marginBottom: 6 }}>
          
             <div className='col-md-2' style={{ textAlign:'center' }}>
               <div style={{width:'85%', padding:10, paddingTop: 0}}>
-                <img className='img-fluid' src='/img/doc_thumb.png' />
+                <img className='img-fluid' src='/womeningov/iii/img/doc_thumb.png' />
                 
               </div>
             </div>
@@ -52,8 +52,8 @@ class HomeView extends React.Component {
               <h1>Publications</h1>
               <div className='row' style={{ border: '1px solid #6baed6', paddingTop: 10 }}>
                 <div className='col-md-3' style={{ textAlign:'center' }}>
-                  <a href='/pubs/PolicyBrief-VulnerableGroup.pdf' target='_blank'>
-                    <img className='img-fluid' src='/img/policy_brief.png' />
+                  <a href='/womeningov/iii/pubs/PolicyBrief-VulnerableGroup.pdf' target='_blank'>
+                    <img className='img-fluid' src='/womeningov/iii/img/policy_brief.png' />
                     <strong>DOWNLOAD</strong>
                   </a>
                 </div>

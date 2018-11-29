@@ -24,20 +24,20 @@ class HomeView extends React.Component {
  render() {
   var studyAreas = [
    {
-    url: '/data/nativity',
+    url: '/womeningov/iii/data/nativity',
     text: 'The Effects of Nativity Status',
-    img: '/img/image_1.jpg'
+    img: '/womeningov/iii/img/image_1.jpg'
    },
    {
-    url: '/data/race',
+    url: '/womeningov/iii/data/race',
     text: 'The Effects of Race'
    },
    {
-    url: '/data/gender',
+    url: '/womeningov/iii/data/gender',
     text: 'The Effects of Gender'
    },
    {
-    url: '/data/vulnerable',
+    url: '/womeningov/iii/data/vulnerable',
     text: 'The Effects of Low English Proficiency and Educational Attainment'
    }
   ]
@@ -134,14 +134,14 @@ class HomeView extends React.Component {
           <div className='col-xs-10' style={{width: '100%'}}>
            <img
             className='img-fluid'
-            src='/img/Center-for-Women-in-Government-and-Civil-Society-pms124_black.png'
+            src='/womeningov/iii/img/Center-for-Women-in-Government-and-Civil-Society-pms124_black.png'
             style={{float: 'left', paddingTop: 45}}/>
            <img
             className='img-fluid'
-            src='/img/seal-assembly-logo.jpg' style={{float: 'right', height: 150, padding: 5}}/>
+            src='/womeningov/iii/img/seal-assembly-logo.jpg' style={{float: 'right', height: 150, padding: 5}}/>
            <img
             className='img-fluid'
-            src='/img/logo-task-force-logo-color.jpg' style={{float: 'right', height: 150, padding: 5}}/>
+            src='/womeningov/iii/img/logo-task-force-logo-color.jpg' style={{float: 'right', height: 150, padding: 5}}/>
           </div>
          </div>
         </div>
