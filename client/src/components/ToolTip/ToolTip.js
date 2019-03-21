@@ -7,6 +7,7 @@ export class ToolTip extends React.Component {
     return (
       <div id={divName} className='ToolTipContainer' style={{ position: 'absolute', top:this.props.top, left:this.props.left, opacity:this.props.show }}>
         {this.props.children}
+       <i>Click to Zoom In/Out</i>
       </div>
     )
   }
@@ -15,7 +16,7 @@ export class ToolTip extends React.Component {
 ToolTip.propTypes = {
   geo: React.PropTypes.object,
   children: React.PropTypes.array,
-  mapDiv: React.PropTypes.string
+  mapDiv: React.PropTypes.string,
 }
 
 export default ToolTip

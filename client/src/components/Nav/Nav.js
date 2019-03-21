@@ -12,6 +12,10 @@ const studyAreas = [
     url: '/womeningov/iii/data/2014/race',
     text: 'The Effects of Race'
   },
+ {
+  url: '/womeningov/iii/data/2014/race_nativity',
+  text: 'The Effects of Race and Nativity'
+ },
   {
     url: '/womeningov/iii/data/2014/gender',
     text: 'The Effects of Gender'
@@ -32,6 +36,10 @@ const studyAreas_2016 = [
   text: 'The Effects of Race'
  },
  {
+  url: '/womeningov/iii/data/2016/race_nativity',
+  text: 'The Effects of Race and Nativity'
+ },
+ {
   url: '/womeningov/iii/data/2016/gender',
   text: 'The Effects of Gender'
  },
@@ -49,6 +57,10 @@ const studyAreas_2017 = [
  {
   url: '/womeningov/iii/data/2017/race',
   text: 'The Effects of Race'
+ },
+ {
+  url: '/womeningov/iii/data/2017/race_nativity',
+  text: 'The Effects of Race and Nativity'
  },
  {
   url: '/womeningov/iii/data/2017/gender',
@@ -79,16 +91,32 @@ const studyAreas_HISP_2016 = [
 const studyAreas_PR_2012_2016 = [
  {
   url: '/womeningov/iii/data/PR_2012_2016/nativity',
-  text: 'The Effects of Nativity Status',
+  text: 'The Effects of Ethnicity',
   img: '/womeningov/iii/img/image_1.jpg'
  },
  {
   url: '/womeningov/iii/data/PR_2012_2016/race',
-  text: 'The Effects of Race'
+  text: 'The Effects of Nativity on Hispanic communities'
  },
  {
   url: '/womeningov/iii/data/PR_2012_2016/gender',
-  text: 'The Effects of Gender'
+  text: 'The Effects of Place of birth on Puerto Rican communities'
+ }
+]
+
+const studyAreas_PR_new = [
+ {
+  url: '/womeningov/iii/data/PR_new/nativity',
+  text: 'The Effects of Nativity',
+  img: '/womeningov/iii/img/image_1.jpg'
+ },
+ {
+  url: '/womeningov/iii/data/PR_new/race',
+  text: 'The Effects of Race'
+ },
+ {
+  url: '/womeningov/iii/data/PR_new/gender',
+  text: 'The Effects Gender'
  }
 ]
 
@@ -100,32 +128,45 @@ function toggle_menu(event) {
   el.nextSibling.childNodes[3].style.display = "none";
   el.nextSibling.nextSibling.childNodes[3].style.display = "none";
   el.nextSibling.nextSibling.nextSibling.childNodes[3].style.display = "none";
-  el.nextSibling.nextSibling.nextSibling.nextSibling.childNodes[3].style.display = "none";
+  //el.nextSibling.nextSibling.nextSibling.nextSibling.childNodes[3].style.display = "none";
+  //el.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.childNodes[3].style.display = "none";
   window.year = '2014';
  }else if(el.id == 'menu_2016'){
   el.previousSibling.childNodes[3].style.display = "none";
   el.nextSibling.childNodes[3].style.display = "none";
   el.nextSibling.nextSibling.childNodes[3].style.display = "none";
-  el.nextSibling.nextSibling.nextSibling.childNodes[3].style.display = "none";
+  //el.nextSibling.nextSibling.nextSibling.childNodes[3].style.display = "none";
+  //el.nextSibling.nextSibling.nextSibling.nextSibling.childNodes[3].style.display = "none";
   window.year = '2016';
  }else if(el.id == 'menu_2017'){
   el.previousSibling.previousSibling.childNodes[3].style.display = "none";
   el.previousSibling.childNodes[3].style.display = "none";
   el.nextSibling.childNodes[3].style.display = "none";
-  el.nextSibling.nextSibling.childNodes[3].style.display = "none";
+  //el.nextSibling.nextSibling.childNodes[3].style.display = "none";
+  //el.nextSibling.nextSibling.nextSibling.childNodes[3].style.display = "none";
+
   window.year = '2017';
  }else if(el.id == 'menu_HISP_2016'){
   el.previousSibling.previousSibling.previousSibling.childNodes[3].style.display = "none";
   el.previousSibling.previousSibling.childNodes[3].style.display = "none";
   el.previousSibling.childNodes[3].style.display = "none";
-  el.nextSibling.childNodes[3].style.display = "none";
+  //el.nextSibling.childNodes[3].style.display = "none";
+  //el.nextSibling.nextSibling.childNodes[3].style.display = "none";
   window.year = 'HISP_2016';
  }else if(el.id == 'menu_PR_2012_2016'){
   el.previousSibling.previousSibling.previousSibling.previousSibling.childNodes[3].style.display = "none";
   el.previousSibling.previousSibling.previousSibling.childNodes[3].style.display = "none";
   el.previousSibling.previousSibling.childNodes[3].style.display = "none";
   el.previousSibling.childNodes[3].style.display = "none";
+  el.nextSibling.childNodes[3].style.display = "none";
   window.year = 'PR_2016';
+ }else if(el.id == 'menu_PR_new'){
+  el.previousSibling.previousSibling.previousSibling.previousSibling.previousSibling.childNodes[3].style.display = "none";
+  el.previousSibling.previousSibling.previousSibling.previousSibling.childNodes[3].style.display = "none";
+  el.previousSibling.previousSibling.previousSibling.childNodes[3].style.display = "none";
+  el.previousSibling.previousSibling.childNodes[3].style.display = "none";
+  el.previousSibling.childNodes[3].style.display = "none";
+  window.year = 'PR_new';
  }
 
  // toggle state
@@ -137,6 +178,7 @@ export const Nav = () => {
  var links_2017 = studyAreas_2017.map(d => (<Link key={d.text} to={d.url} className='dropdown-item'>{d.text}</Link>))
  var links_HISP_2016 = studyAreas_HISP_2016.map(d => (<Link key={d.text} to={d.url} className='dropdown-item'>{d.text}</Link>))
  var links_PR_2012_2016 = studyAreas_PR_2012_2016.map(d => (<Link key={d.text} to={d.url} className='dropdown-item'>{d.text}</Link>))
+ var links_PR_new = studyAreas_PR_new.map(d => (<Link key={d.text} to={d.url} className='dropdown-item'>{d.text}</Link>))
 
  return (
     <nav className='navbar navbar-dark theme-color nav-custom'>
@@ -171,14 +213,23 @@ export const Nav = () => {
                  <menu id={'menu_2017'} onMouseEnter={toggle_menu}>2017
                   <menu id={'links'} style={{display: 'none'}}>{links_2017}</menu>
                  </menu>
-                 <menu id={'menu_HISP_2016'} onMouseEnter={toggle_menu}>Hispanic 2012-2016
+                 <menu id={'menu_HISP_2016'} onMouseEnter={toggle_menu}>Hispanic New Yorkers
                   <menu id={'links'} style={{display: 'none'}}>{links_HISP_2016}</menu>
                  </menu>
+                 {/*
                  <menu id={'menu_PR_2012_2016'} onMouseEnter={toggle_menu}>Puerto Rico 2012-2016
                   <menu id={'links'} style={{display: 'none'}}>{links_PR_2012_2016}</menu>
                  </menu>
+                 <menu id={'menu_PR_new'} onMouseEnter={toggle_menu}>Puerto Rico
+                  <menu id={'links'} style={{display: 'none'}}>{links_PR_new}</menu>
+                 </menu>
+                 */}
+
                 </NavDropdown>
               </li>
+             <li className='nav-item'>
+              <Link to='/womeningov/iii/overview' className='nav-link active'>DATA SNAPSHOTS</Link>
+             </li>
               <li className='nav-item'>
                 <Link to='/womeningov/iii/research' className='nav-link active'>METHODOLOGY</Link>
               </li>

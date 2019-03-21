@@ -1,9 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebfb748a-5ac0-436d-8e18-1ec089112e75" name="Default Changelist" comment="">
+    <list default="true" id="ebfb748a-5ac0-436d-8e18-1ec089112e75" name="Default Changelist" comment="Production build -- PR_new added">
+      <change afterPath="$PROJECT_DIR$/client/dist_working/0.data.5d1e0285a775fb219681.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/1.about.6667dd02d54b3797cd62.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/3.research.e965b04c3beb226e25b0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/4.publications.74a0e3334cccff2ffce8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/5.methods.be05e13fe03ea32d9f39.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/6.overview.f419602151d0f46beeaf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/7.login.834c9e6b9e4d6c740600.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/group1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/group10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/group2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/group3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/group4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/group9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/group1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/group10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/group2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/group3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/group4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/group9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/app.0eba86b2b1a28986aa72.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/app.2f986489dfffed942335586e8ad1a661.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv/group9.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/csv_v2/group9.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/geo/ny_puma_geo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/.4117268214_3548ebbc56_o.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/14577783439_0fc897c193_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/14761932405_6b07344911_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/3109320685_36e803978d_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/3109323037_1324c68d5c_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/3110152392_cd8bc646aa_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/3110156350_23fcd0febf_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/33016256765_cb8162ef47_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/Center-for-Women-in-Government-and-Civil-Society-pms124_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/TaskForce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/doc_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/image_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/image_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/logo-task-force-logo-color.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/policy_brief.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/img/seal-assembly-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/json/group9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group10_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group10_region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group1_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group1_region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group2_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group2_region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group3_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group3_region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group4_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group4_region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group5_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group5_region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group6_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group6_region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group7_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group8_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group9_puma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/final/group9_region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/gender_babs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/gender_hs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/group1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/group10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/group2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/group3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/group4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/group5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/group6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/group9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/nativity_babs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/old_data/v1/json_data/nativity_hs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/FB-NoEnglish-NoEducation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/FactSheets-I3 CentralNewYork.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/FactSheets-I3- Capital Region.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/I3 Fact Sheets - Finger Lakes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/I3 Fact Sheets - Long Island.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/I3 Fact Sheets - Mid Hudson.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/I3 Fact Sheets - New York.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/I3 Fact Sheets - Western New York.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/I3FactSheet- Mohawk Valley.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/I3FactSheet- North Country.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/I3FactSheet- Southern Tier.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/Immigrant Integration Index Blurb.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/pubs/PolicyBrief-VulnerableGroup.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist_working/vendor.50459c23b4dcf29a01e3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/Home/assets/.statue-of-liberty-b&amp;w.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/2014/group13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/2016/group13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/2017/group13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/PR_new/group1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/PR_new/group10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/PR_new/group2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/PR_new/group3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/PR_new/group4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/PR_new/group9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2014/img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2016/img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/2017/img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/HISP_2016/img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_2012_2016/img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/static/img/data_overview/PR_new/img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geo/.tl_2010_36_puma10.json.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geo/.tl_2010_36_puma10.shp.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geo/.tl_2010_36_puma10_topo.json.icloud" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Nav/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ResponsiveMap/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ResponsiveMap/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ToolTip/ToolTip.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ToolTip/ToolTip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/About/components/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/About/components/Team.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_HISP_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_HISP_2016.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_2012_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_2012_2016.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/DataExplorer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataExplorer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/DataOverview/components/OverView.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/DataOverview/components/OverView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/Home/assets/statue-of-liberty-b&amp;w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/Home/assets/statue_of_liberty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/0d321f85b729e455bb50923f8bd3d609.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/Research/components/Research.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Research/components/Research.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group11.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group5.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group6.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group7.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group8.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group11.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group5.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group6.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group7.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group8.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2014/parsed_group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2014/parsed_group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group11.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group5.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group6.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group7.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group8.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group11.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group5.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group6.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group7.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group8.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2016/parsed_group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2016/parsed_group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group11.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group5.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group6.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group7.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group8.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group11.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group5.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group6.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group7.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group8.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/2017/parsed_group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/2017/parsed_group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/HISP_2016/group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/parsed_group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/parsed_group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/parsed_group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/parsed_group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/parsed_group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/HISP_2016/parsed_group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/HISP_2016/parsed_group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/static/PR_2016/group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group1.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/parsed_group1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group10.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/parsed_group10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group2.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/parsed_group2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group3.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/parsed_group3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group4.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/parsed_group4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/PR_2016/parsed_group9.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/PR_2016/parsed_group9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/.4117268214_3548ebbc56_o.jpg.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/static/img/data_overview/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/dist_working/img/data_overview/img9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/modules/analysis.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/modules/analysis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/modules/analysis_2016.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/modules/analysis_2016.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo/tl_2010_36_puma10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo/tl_2010_36_puma10.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo/tl_2010_36_puma10_topo.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,17 +402,24 @@
     <session id="327937541">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.13" value="4" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="6" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,10 +429,11 @@
           <entry key="htaccess" value="3" />
           <entry key="html" value="12" />
           <entry key="icloud" value="1" />
-          <entry key="js" value="183" />
+          <entry key="js" value="209" />
           <entry key="json" value="15" />
           <entry key="lock" value="1" />
-          <entry key="rnc" value="1" />
+          <entry key="md" value="1" />
+          <entry key="rnc" value="2" />
           <entry key="scss" value="13" />
           <entry key="snippet" value="1" />
           <entry key="ts" value="3" />
@@ -64,9 +444,10 @@
         <counts>
           <entry key="HTML" value="12" />
           <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="183" />
+          <entry key="JavaScript" value="209" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="RNG Compact" value="1" />
+          <entry key="RNG Compact" value="2" />
           <entry key="SCSS" value="13" />
           <entry key="Scratch" value="1" />
           <entry key="TypeScript" value="3" />
@@ -78,18 +459,18 @@
         <counts>
           <entry key="htaccess" value="93" />
           <entry key="html" value="76" />
-          <entry key="js" value="8819" />
+          <entry key="js" value="9897" />
           <entry key="json" value="11" />
           <entry key="scss" value="29" />
-          <entry key="txt" value="38" />
+          <entry key="txt" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="76" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="8819" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="JavaScript" value="9897" />
+          <entry key="PLAIN_TEXT" value="60" />
           <entry key="SCSS" value="29" />
           <entry key="htaccess" value="87" />
         </counts>
@@ -99,21 +480,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding>
-                <element signature="e#67#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="285">
               <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -125,17 +494,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100">
-              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/components/Nav/Nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -143,44 +503,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/store/modules/analysis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="290">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/server/main.js">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Nav/Nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+            <state relative-caret-position="3015">
+              <caret line="204" column="49" selection-start-line="204" selection-start-column="49" selection-end-line="204" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/routes/Home/components/HomeView.js">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/DataOverview/components/OverView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/routes/Pubs/components/Publications.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="2070">
+              <caret line="138" column="76" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -188,12 +536,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="673" column="62" selection-start-line="673" selection-start-column="62" selection-end-line="673" selection-end-column="62" />
+            <state relative-caret-position="121">
+              <caret line="360" column="64" selection-start-line="360" selection-start-column="64" selection-end-line="360" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="476" column="64" selection-start-line="476" selection-start-column="64" selection-end-line="476" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="355" column="63" selection-start-line="355" selection-start-column="63" selection-end-line="355" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/routes/Research/components/Research.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#245#297#0" expanded="true" />
-                <element signature="e#597#625#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,22 +583,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>base</find>
-      <find>output</find>
-      <find>publ</find>
-      <find>dataexplorer</find>
-      <find>/d</find>
-      <find>/da</find>
-      <find>d3</find>
-      <find>womeningov/iii/</find>
-      <find>src</find>
-      <find>href</find>
-      <find>iii</find>
-      <find>2014</find>
-      <find>d3.</find>
-      <find>d3.j</find>
-      <find>router</find>
-      <find>hot</find>
       <find>ser</find>
       <find>path</find>
       <find>locatin</find>
@@ -240,6 +597,22 @@
       <find>app.get</find>
       <find>&quot;/</find>
       <find>&quot;/&quot;</find>
+      <find>forei</find>
+      <find>PR_2016</find>
+      <find>analysis_2016</find>
+      <find>_2016</find>
+      <find>analyses_2016</find>
+      <find>analyses</find>
+      <find>tool</find>
+      <find>Holds Bachelor’s degree or better; speaks English well</find>
+      <find>{['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ? &lt;strong&gt;{analyses['nativity'].subcats[this.state.activeAnalysis].heading}&lt;/strong&gt; : &lt;strong&gt;{analyses[this.state.activeAnalysis]  ? analyses[this.state.activeAnalysis].heading : ''}&lt;/strong&gt;}</find>
+      <find>Effects of nativity status and race on economic outcomes of foreign-born New Yorkers.</find>
+      <find>Foreign Born Hispanic Women and Foreign Born Hispanic Men</find>
+      <find>map</find>
+      <find>rendermap</find>
+      <find>svg</find>
+      <find>.name</find>
+      <find>Foreign Born people of color and Native Born white non-hispanic</find>
     </findStrings>
     <replaceStrings>
       <replace>2017</replace>
@@ -249,6 +622,9 @@
       <replace>HISP_2016</replace>
       <replace>PR_2016</replace>
       <replace>this.props.analyses_2016</replace>
+      <replace>PR_new</replace>
+      <replace>analyses</replace>
+      <replace>{analyses['race'].subcats['race'].name}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -261,7 +637,6 @@
         <option value="$PROJECT_DIR$/client/src/routes/Home/components/HomeView.scss" />
         <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/year.js" />
         <option value="$PROJECT_DIR$/client/src/routes/About/components/AboutView.scss" />
-        <option value="$PROJECT_DIR$/client/src/routes/About/components/Team.js" />
         <option value="$PROJECT_DIR$/client/src/components/utils/NavDropdown.js" />
         <option value="$PROJECT_DIR$/client/src/index.html" />
         <option value="$PROJECT_DIR$/client/src/store/reducers.js" />
@@ -273,23 +648,29 @@
         <option value="$PROJECT_DIR$/client/src/routes/Research/index.js" />
         <option value="$PROJECT_DIR$/client/src/routes/About/components/AboutView.js" />
         <option value="$PROJECT_DIR$/client/src/routes/Pubs/components/Publications.js" />
-        <option value="$PROJECT_DIR$/client/src/store/modules/analysis.js" />
-        <option value="$PROJECT_DIR$/client/src/store/modules/analysis_2016.js" />
-        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/index.js" />
         <option value="$PROJECT_DIR$/client/config/index.js" />
-        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js" />
-        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_2012_2016.js" />
-        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_HISP_2016.js" />
-        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js" />
-        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js" />
         <option value="$PROJECT_DIR$/client/src/main.js" />
         <option value="$PROJECT_DIR$/client/bin/server.js" />
         <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/client/dist/about/index.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/client/src/routes/index.js" />
         <option value="$PROJECT_DIR$/client/server/main.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/About/components/Team.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_2012_2016.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_new.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/index.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/client/src/store/modules/analysis.js" />
+        <option value="$PROJECT_DIR$/client/src/store/modules/analysis_2016.js" />
+        <option value="$PROJECT_DIR$/client/src/components/ToolTip/ToolTip.js" />
         <option value="$PROJECT_DIR$/client/src/components/Nav/Nav.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/DataOverview/components/OverView.js" />
+        <option value="$PROJECT_DIR$/client/src/components/ResponsiveMap/index.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_HISP_2016.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/Research/components/Research.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js" />
+        <option value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js" />
       </list>
     </option>
   </component>
@@ -323,9 +704,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,85 +716,38 @@
               <item name="iii" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="iii" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iii" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iii" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iii" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iii" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iii" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iii" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iii" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iii" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iii" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iii" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iii" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Pubs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iii" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iii" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Pubs" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="nav&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Nav/Nav.js&#10;webpack&#9;null&#9;null&#10;clien&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/node_modules/webpack-hot-middleware/example/client.js&#10;ser&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;server&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;htacce&#9;null&#9;null&#10;server.&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;nav.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Nav/Nav.js&#10;bundle.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/tests/test-bundler.js&#10;index.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/config/index.js&#10;dropdown-menu&#9;null&#9;null&#10;vulnerable&#9;null&#9;null&#10;homev&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/routes/Home/components/HomeView.js&#10;statue&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/static/img/.statue-of-liberty-b&amp;w.jpg.icloud&#10;sidebar.&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Sidebar/Sidebar.js" />
+    <property name="SearchEverywhereHistoryKey" value="resea&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/routes/Research/components/Research.js&#10;meth&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/routes/Methods&#10;svg&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/node_modules/react-dom/lib/SVGDOMPropertyConfig.js&#10;/womeningov/&#9;null&#9;null&#10;analy&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/store/modules/analysis.js&#10;overvie&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/routes/DataOverview/components/OverView.js&#10;nav&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Nav/Nav.js&#10;webpack&#9;null&#9;null&#10;clien&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/node_modules/webpack-hot-middleware/example/client.js&#10;ser&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;server&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;htacce&#9;null&#9;null&#10;server.&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/bin/server.js&#10;nav.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Nav/Nav.js&#10;bundle.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/tests/test-bundler.js&#10;index.js&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/config/index.js&#10;dropdown-menu&#9;null&#9;null&#10;vulnerable&#9;null&#9;null&#10;homev&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/routes/Home/components/HomeView.js&#10;statue&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/static/img/.statue-of-liberty-b&amp;w.jpg.icloud&#10;sidebar.&#9;FILE&#9;file:///Users/shaun/Documents/iii/client/src/components/Sidebar/Sidebar.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543508659533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553182180866" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src/store/modules" />
       <recent name="$PROJECT_DIR$/client/src/routes/DataExplorer/components" />
+      <recent name="$PROJECT_DIR$/client/src/store/modules" />
       <recent name="$PROJECT_DIR$/client/src/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/static" />
+      <recent name="$PROJECT_DIR$/client/src/static/PR_2016" />
+      <recent name="$PROJECT_DIR$/client/src/static/HISP_2016" />
+      <recent name="$PROJECT_DIR$/client/src/static/img/data_overview" />
+      <recent name="$PROJECT_DIR$/client/src/static/2017" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,7 +784,22 @@
       <workItem from="1541776055690" duration="7581000" />
       <workItem from="1542039581394" duration="6480000" />
       <workItem from="1542052337295" duration="8653000" />
-      <workItem from="1542210392152" duration="19475000" />
+      <workItem from="1542210392152" duration="22689000" />
+      <workItem from="1544544349111" duration="109000" />
+      <workItem from="1544550155132" duration="6354000" />
+      <workItem from="1544630150322" duration="1462000" />
+      <workItem from="1545247958538" duration="1374000" />
+      <workItem from="1545255913793" duration="1169000" />
+      <workItem from="1549736195208" duration="232000" />
+      <workItem from="1549927962167" duration="5711000" />
+      <workItem from="1549936234457" duration="1735000" />
+      <workItem from="1552177909880" duration="4389000" />
+      <workItem from="1552314368425" duration="277000" />
+      <workItem from="1552326135665" duration="1471000" />
+      <workItem from="1552346953671" duration="6483000" />
+      <workItem from="1552397127992" duration="61000" />
+      <workItem from="1553174190691" duration="238000" />
+      <workItem from="1553175241734" duration="5182000" />
     </task>
     <task id="LOCAL-00001" summary="Attempt 1">
       <created>1540568958774</created>
@@ -476,34 +822,50 @@
       <option name="project" value="LOCAL" />
       <updated>1543509551986</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Production build">
+      <created>1543509628933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543509628933</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149756000" />
+    <option name="totallyTimeSpent" value="189217000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25040388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32229403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.19041096" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5410959" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.15342465" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.19041096" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -514,6 +876,36 @@
       <window_info anchor="right" id="Database" order="7" weight="0.32956383" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14054927" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29452056" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.19041096" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32956383" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32956383" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -525,81 +917,14 @@
     <MESSAGE value="Attempt 1" />
     <MESSAGE value="glitch solved" />
     <MESSAGE value="Production build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Production build" />
+    <MESSAGE value="Production build -- PR_new added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Production build -- PR_new added" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/tests/test-bundler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/Home/components/HomeView.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/DataProcessing/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/Methods/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/Research/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/About/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/Pubs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/store/modules/analysis_2016.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/.htaccess" />
     <entry file="file://$PROJECT_DIR$/client/node_modules/connect-history-api-fallback/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -654,59 +979,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/Home/assets/.statue_of_liberty.jpg.icloud">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="530" column="91" selection-start-line="530" selection-start-column="91" selection-end-line="530" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="521" column="92" selection-start-line="521" selection-start-column="92" selection-end-line="521" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_HISP_2016.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="587" column="28" selection-start-line="587" selection-start-column="24" selection-end-line="587" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_2012_2016.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="505" column="100" selection-start-line="505" selection-start-column="100" selection-end-line="505" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/Home/assets/.statue_of_liberty.jpg.icloud" />
     <entry file="file://$PROJECT_DIR$/client/node_modules/react-router/es6/withRouter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="673" column="62" selection-start-line="673" selection-start-column="62" selection-end-line="673" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#245#297#0" expanded="true" />
-            <element signature="e#597#625#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,9 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="38" column="8" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,51 +1059,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/1.about.6667dd02d54b3797cd62.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/app.248ec7d0d0a387e24116.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="32" column="875" lean-forward="true" selection-start-line="32" selection-start-column="875" selection-end-line="32" selection-end-column="875" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/about/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#67#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/dist/1.about.6667dd02d54b3797cd62.js" />
+    <entry file="file://$PROJECT_DIR$/client/dist/app.248ec7d0d0a387e24116.js" />
+    <entry file="file://$PROJECT_DIR$/client/dist/about/index.html" />
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -841,38 +1078,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/store/modules/analysis.js">
+    <entry file="file://$PROJECT_DIR$/client/src/routes/About/team.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataOverview/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/About/components/Team.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="1170">
+          <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/index.js">
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_2012_2016.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/server/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        <state relative-caret-position="584">
+          <caret line="193" column="62" selection-start-line="193" selection-start-column="62" selection-end-line="193" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/routes/Home/components/HomeView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="458">
           <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/store/modules/analysis_2016.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/ToolTip/ToolTip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/react-dom/lib/SVGDOMPropertyConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/ResponsiveMap/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="236" column="350" selection-start-line="236" selection-start-column="350" selection-end-line="236" selection-end-column="350" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_HISP_2016.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="206" column="31" selection-start-line="206" selection-start-column="31" selection-end-line="206" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_PR_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="116" column="16" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Nav/Nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="3015">
+          <caret line="204" column="49" selection-start-line="204" selection-start-column="49" selection-end-line="204" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataOverview/components/OverView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="76" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/Research/components/Research.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/store/modules/analysis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="360" column="64" selection-start-line="360" selection-start-column="64" selection-end-line="360" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2016.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="476" column="64" selection-start-line="476" selection-start-column="64" selection-end-line="476" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/routes/DataExplorer/components/DataExplorer_2017.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="355" column="63" selection-start-line="355" selection-start-column="63" selection-end-line="355" selection-end-column="63" />
         </state>
       </provider>
     </entry>

@@ -207,17 +207,28 @@ const analyses = {
     info:'Effects of nativity status and race on economic outcomes of foreign-born New Yorkers.',
     subcats: {
       'race': {
-        name:'Foreign-Born people of color and Native-Born non-hispanic white',
+        name:'Foreign-Born people of color and Foreign-Born white non-hispanic',
         type: 'activeAnalysis',
         subcats: education
       },
       'race_women': {
-        name:'Foreign-Born Women of color and Native-born non-hispanic white women',
+        name:'Foreign-Born Women of color and Foreign-born non-hispanic white women',
         type: 'activeAnalysis',
         subcats: education
       }
     }
   },
+ race_nativity: {
+  name: 'The Effects of Race and Nativity',
+  info:'Effects of nativity status and race on economic outcomes of foreign-born New Yorkers.',
+  subcats: {
+   'race_nativity': {
+    name:'Foreign-Born people of color and Native-Born non-hispanic white',
+    type: 'activeAnalysis',
+    subcats: education
+   }
+  }
+ },
   gender: {
     name: 'The Effects of Gender',
     info: 'Effects of nativity status on economic outcomes of foreign-born women.',
@@ -342,11 +353,20 @@ class DataExplorer extends React.Component {
       <div style={{padding: 10}}>
        
           <div className='col-md-12' style={{ backgroundColor:'#efefef', borderRadius: 5, padding:10 }}>
-            <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4>
-            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Native Born white non-hispanic</strong> : ''}
-            {['race_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born Women of color And Native Born Women white non-hispanic<br /></strong> : ''}
-            {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].heading}</strong> : <strong>{analyses[this.state.activeAnalysis]  ? analyses[this.state.activeAnalysis].heading : ''}</strong>}
-            
+           {analyses[this.state.activeAnalysis] === undefined ?
+            <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4> :
+            <h4>{analyses[this.state.activeAnalysis].name}</h4>}
+            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Foreign Born white non-hispanic</strong> : ''}
+            {['race_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born Women of color And Foreign Born Women white non-hispanic<br /></strong> : ''}
+            {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ?
+             <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].name}</strong> : ''}
+           {['race_nativity'].indexOf(this.state.activeAnalysis) !== -1 ?
+            <strong>{analyses[this.state.activeAnalysis].subcats[this.state.activeAnalysis].name}</strong> : ''}
+           {
+            analyses[this.state.activeAnalysis] && analyses[this.state.activeAnalysis].heading ?
+             <strong>{analyses[this.state.activeAnalysis].heading}<br /></strong>
+             : ''
+           }
             {this.state.activeAnalysis !== 'vulnerable' ?
               (
                 <span>
@@ -444,10 +464,14 @@ class DataExplorer extends React.Component {
           </div>
           <div className='col-md-1' />
           <div className='col-md-6' style={{ backgroundColor:'#efefef', borderRadius: 5, padding:10 }}>
-            <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4>
-            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Native Born white non-hispanic<br /></strong> : ''}
-            {['race_women'].indexOf(this.state.activeAnalysis) !== -1? <strong>Foreign Born Women of color And Native Born Women white non-hispanic<br /></strong> : ''}
+           {analyses[this.state.activeAnalysis] === undefined ?
+            <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4> :
+            <h4>{analyses[this.state.activeAnalysis].name}</h4>}
+            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Foreign Born white non-hispanic<br /></strong> : ''}
+            {['race_women'].indexOf(this.state.activeAnalysis) !== -1? <strong>Foreign Born Women of color And Foreign Born Women white non-hispanic<br /></strong> : ''}
             {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].heading}<br /></strong> : ''}
+           {['race_nativity'].indexOf(this.state.activeAnalysis) !== -1 ?
+            <strong>{analyses[this.state.activeAnalysis].subcats[this.state.activeAnalysis].name}<br /></strong> : ''}
             {
               analyses[this.state.activeAnalysis] && analyses[this.state.activeAnalysis].heading ?
               <strong>{analyses[this.state.activeAnalysis].heading}<br /></strong>

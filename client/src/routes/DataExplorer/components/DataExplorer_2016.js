@@ -4,7 +4,7 @@ import * as topojson from 'topojson'
 // Redux
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
-import { loadAnalyses } from 'store/modules/analysis_2016'
+import { loadAnalyses } from 'store/modules/analysis'
 // Components
 import ResponsiveMap from 'components/ResponsiveMap'
 import Sidebar from 'components/Sidebar/SidebarThree'
@@ -209,17 +209,28 @@ const analyses = {
     url: '/data/2016/race',
     subcats: {
       'race': {
-        name:'Foreign-Born people of color and Native-Born non-hispanic white',
+        name:'Foreign-Born people of color and Foreign-Born white non-hispanic',
         type: 'activeAnalysis',
         subcats: education
       },
       'race_women': {
-        name:'Foreign-Born Women of color and Native-born non-hispanic white women',
+        name:'Foreign-Born Women of color and Foreign-born non-hispanic white women',
         type: 'activeAnalysis',
         subcats: education
       }
     }
   },
+ race_nativity: {
+  name: 'The Effects of Race and Nativity',
+  info:'Effects of nativity status and race on economic outcomes of foreign-born New Yorkers.',
+  subcats: {
+   'race_nativity': {
+    name:'Foreign-Born people of color and Native-Born non-hispanic white',
+    type: 'activeAnalysis',
+    subcats: education
+   }
+  }
+ },
   gender: {
     name: 'The Effects of Gender',
     info: 'Effects of nativity status on economic outcomes of foreign-born women.',
@@ -306,7 +317,6 @@ class DataExplorer_2016 extends React.Component {
 
     if (nextProps.params.type && nextProps.params.type !== this.state.activeAnalysis) {
       this.setState({ activeAnalysis: nextProps.params.type })
-     //storeState.analyses = {}
      //this.params.storeState.
     }
 
@@ -323,12 +333,12 @@ class DataExplorer_2016 extends React.Component {
   }
 
   dataTable () {
-    if (!this.props.analyses_2016[this.state.activeAnalysis] ||
-        !this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel]) {
+    if (!this.props.analyses[this.state.activeAnalysis] ||
+        !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]) {
       this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, this.state.activeYear)
       return <span />
     }
-    var data = this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel]
+    var data = this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]
     var regionFilter = this.state.activeRegion &&
       regions[this.state.activeRegion]
       ? regions[this.state.activeRegion] : Object.keys(regions)
@@ -351,11 +361,20 @@ class DataExplorer_2016 extends React.Component {
       <div style={{padding: 10}}>
        
           <div className='col-md-12' style={{ backgroundColor:'#efefef', borderRadius: 5, padding:10 }}>
-            <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4>
-            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Native Born white non-hispanic</strong> : ''}
-            {['race_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born Women of color And Native Born Women white non-hispanic<br /></strong> : ''}
-            {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].heading}</strong> : <strong>{analyses[this.state.activeAnalysis]  ? analyses[this.state.activeAnalysis].heading : ''}</strong>}
-            
+           {analyses[this.state.activeAnalysis] === undefined ?
+            <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4> :
+            <h4>{analyses[this.state.activeAnalysis].name}</h4>}
+            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Foreign Born white non-hispanic</strong> : ''}
+            {['race_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born Women of color And Foreign Born Women white non-hispanic<br /></strong> : ''}
+            {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ?
+             <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].name}</strong> : ''}
+           {['race_nativity'].indexOf(this.state.activeAnalysis) !== -1 ?
+            <strong>{analyses[this.state.activeAnalysis].subcats[this.state.activeAnalysis].name}</strong> : ''}
+           {
+            analyses[this.state.activeAnalysis] && analyses[this.state.activeAnalysis].heading ?
+             <strong>{analyses[this.state.activeAnalysis].heading}<br /></strong>
+             : ''
+           }
             {this.state.activeAnalysis !== 'vulnerable' ?
               (
                 <span>
@@ -453,10 +472,15 @@ class DataExplorer_2016 extends React.Component {
           </div>
           <div className='col-md-1' />
           <div className='col-md-6' style={{ backgroundColor:'#efefef', borderRadius: 5, padding:10 }}>
-            <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4>
-            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Native Born white non-hispanic<br /></strong> : ''}
-            {['race_women'].indexOf(this.state.activeAnalysis) !== -1? <strong>Foreign Born Women of color And Native Born Women white non-hispanic<br /></strong> : ''}
-            {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].heading}<br /></strong> : ''}
+           {analyses[this.state.activeAnalysis] === undefined ?
+            <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4> :
+            <h4>{analyses[this.state.activeAnalysis].name}</h4>}
+            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Foreign Born white non-hispanic<br /></strong> : ''}
+            {['race_women'].indexOf(this.state.activeAnalysis) !== -1? <strong>Foreign Born Women of color And Foreign Born Women white non-hispanic<br /></strong> : ''}
+            {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ?
+             <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].name}<br /></strong> : ''}
+           {['race_nativity'].indexOf(this.state.activeAnalysis) !== -1 ?
+            <strong>{analyses[this.state.activeAnalysis].subcats[this.state.activeAnalysis].name}<br /></strong> : ''}
             {
               analyses[this.state.activeAnalysis] && analyses[this.state.activeAnalysis].heading ?
               <strong>{analyses[this.state.activeAnalysis].heading}<br /></strong>
@@ -529,18 +553,18 @@ class DataExplorer_2016 extends React.Component {
 
   renderMap () {
    if (window.x === 1){ window.x = 2; this.props.router.push('/womeningov/iii/data/'+ '2016' + '/' + this.state.activeAnalysis)}
-    if (!this.props.analyses_2016[this.state.activeAnalysis] ||
-        !this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel] ||
-        !this.state.childGeo || !this.state.regionGeo || (this.props.analyses_2016 == null)) {
+    if (!this.props.analyses[this.state.activeAnalysis] ||
+        !this.props.analyses[this.state.activeAnalysis][this.state.educationLevel] ||
+        !this.state.childGeo || !this.state.regionGeo || (this.props.analyses == null)) {
 
       this.props.loadAnalyses(this.state.activeAnalysis, this.state.educationLevel, '2016')
-      return <div style={{ minHeight:'100vh' }}> Loading ... {Object.keys(this.props.analyses_2016)}</div>
+      return <div style={{ minHeight:'100vh' }}> Loading ... {Object.keys(this.props.analyses)}</div>
     }
     // got these 2 lines out of if.. as even if analysis matches, year might have changed
 
 
 
-    var data = this.props.analyses_2016[this.state.activeAnalysis][this.state.educationLevel]
+    var data = this.props.analyses[this.state.activeAnalysis][this.state.educationLevel]
     var regionGeo = {
       'type': 'FeatureCollection',
       'features': []
@@ -612,8 +636,6 @@ class DataExplorer_2016 extends React.Component {
      //alert('in setAnalysis')
      //alert(window.location.hostname+':'+window.location.port+'/data/'+ '2016' + '/' + cat)
      //window.location.assign(window.location.hostname+':'+window.location.port+'/data/'+ '2016' + '/' + cat)
-     //this.props.analyses_2016.forEach(alert(item))
-     //this.props.analyses_2016[this.state.]
      window.x = 1
      this.props.router.push('/womeningov/iii/data/'+ '2016' + '/' + cat)
     }
@@ -678,11 +700,11 @@ class DataExplorer_2016 extends React.Component {
 DataExplorer_2016.propTypes = {
   params : React.PropTypes.object.isRequired,
   loadAnalyses : React.PropTypes.func.isRequired,
-  analyses_2016 : React.PropTypes.object.isRequired
+  analyses : React.PropTypes.object.isRequired
 }
 
 const mapStateToProps = (state) => ({
-  analyses_2016 : state.analysis
+  analyses : state.analysis
 })
 
 export default connect(mapStateToProps, { loadAnalyses })(withRouter(DataExplorer_2016))

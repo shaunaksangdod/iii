@@ -191,7 +191,7 @@ const analyses = {
     type: 'activeAnalysis',
     subcats: {
       'nativity': {
-        name: 'Foreign-Born Hispanic and Native-Born Hispanic',
+        name: 'Puerto Rican born and Native born on Mainland',
         type: 'activeAnalysis',
         subcats: education
       }

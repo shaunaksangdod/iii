@@ -1,7 +1,8 @@
 // We only need to import the modules necessary for initial render
 import CoreLayout from '../layouts/CoreLayout/CoreLayout'
 import Home from './Home'
-import { Explorer, ExplorerType_2014, ExplorerType_2016, ExplorerType_2017, ExplorerType_HISP_2016, ExplorerType_PR_2012_2016 } from './DataExplorer'
+import { Explorer, ExplorerType_2014, ExplorerType_2016, ExplorerType_2017, ExplorerType_HISP_2016,
+ ExplorerType_PR_2012_2016, ExplorerType_PR_new } from './DataExplorer'
 import Processing from './DataProcessing'
 import Login from './Login/index'
 import About from './About'
@@ -23,6 +24,7 @@ export const createRoutes = (store) => ({
     ExplorerType_2017(store),
     ExplorerType_HISP_2016(store),
     ExplorerType_PR_2012_2016(store),
+    ExplorerType_PR_new(store),
     Login(store),
     About(store),
     Methods(store),

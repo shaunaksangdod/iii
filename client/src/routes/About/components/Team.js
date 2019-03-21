@@ -72,11 +72,11 @@ class Team extends React.Component {
               <table width="100%">
                <td>
                 <tr><h4>Shaunak Sangdod </h4></tr>
-                <tr>Email: <a href='mailto:ssangdod@albany.edu'>ssangdod@albany.edu</a></tr>
+                <tr>Email: <a href='mailto:ssangdod@albany.edu'>SSangdod@albany.edu</a></tr>
                </td>
                <td>
                 <tr><h4>Nayanika Bhargava </h4></tr>
-                <tr>Email: <a href='mailto:nbhargava@albany.edu'>nbhargava@albany.edu</a></tr>
+                <tr>Email: <a href='mailto:nbhargava@albany.edu'>NBhargava@albany.edu</a></tr>
                </td>
                </table>
               <br />

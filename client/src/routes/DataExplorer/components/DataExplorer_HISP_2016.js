@@ -172,13 +172,13 @@ const calc = ['Ratio', 'Rank', 'Grade']
 const education = {
   babs: {
     name: 'Bachelor’s Degree or More',
-    desc: 'Holds Bachelor’s degree or better; speaks English well.',
+    desc: 'Holds Bachelor’s degree or better; speaks English well. Ages 25-64.',
     type: 'educationLevel',
     subcats: cats
   },
   hs : {
     name: 'High School Diploma / Some College',
-    desc: 'Has High School diploma or some college; speaks English well.',
+    desc: 'Has High School diploma or some college; speaks English well. Ages 25-64.',
     type: 'educationLevel',
     subcats: cats
   }
@@ -187,11 +187,11 @@ const education = {
 const analyses = {
   nativity: {
     name: 'The Effects of Nativity Status',
-    info: 'Effects of nativity status on economic outcomes of foreign-Born New Yorkers.',
+    info: 'Effects of nativity status on economic outcomes of Hispanic New Yorkers.',
     type: 'activeAnalysis',
     subcats: {
       'nativity': {
-        name: 'Foreign-Born Hispanic and Native-Born Hispanic',
+        name: 'Foreign-Born Hispanic New Yorkers and Native-Born Hispanic New Yorkers',
         type: 'activeAnalysis',
         subcats: education
       }
@@ -199,10 +199,11 @@ const analyses = {
   },
   race: {
     name: 'The Effects of Race',
-    info:'Effects of nativity status and race on economic outcomes of foreign-born New Yorkers.',
+    info:'Effects of nativity status and race on economic outcomes of Hispanic foreign-born New Yorkers.',
     subcats: {
       'race': {
         name:'Foreign-Born Hispanic people of color and Foreign-Born white Hispanic',
+       display_name: 'Foreign-Born Hispanic people of color vs Foreign-Born white Hispanic',
         type: 'activeAnalysis',
         subcats: education
       }
@@ -210,8 +211,8 @@ const analyses = {
   },
   gender: {
     name: 'The Effects of Gender',
-    info: 'Effects of nativity status on economic outcomes of foreign-born women.',
-    heading: 'Foreign Born Hispanic Women and Foreign Born Hispanic Men',
+    info: 'Effects of nativity status on economic outcomes of Hispanic foreign-born New Yorkers.',
+    heading: 'Foreign Born Hispanic Women vs Foreign Born Hispanic Men',
     subcats: education
   }
 }
@@ -327,10 +328,14 @@ class DataExplorer extends React.Component {
        
           <div className='col-md-12' style={{ backgroundColor:'#efefef', borderRadius: 5, padding:10 }}>
             <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4>
-            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Native Born white non-hispanic</strong> : ''}
+            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['race'].subcats['race'].display_name}</strong> : ''}
             {['race_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born Women of color And Native Born Women white non-hispanic<br /></strong> : ''}
-            {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].heading}</strong> : <strong>{analyses[this.state.activeAnalysis]  ? analyses[this.state.activeAnalysis].heading : ''}</strong>}
-            
+            {['nativity'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['nativity'].subcats['nativity'].name}</strong> : ''}
+           {
+            analyses[this.state.activeAnalysis] && analyses[this.state.activeAnalysis].heading ?
+             <strong>{analyses[this.state.activeAnalysis].heading}</strong>
+             : ''
+           }
             {this.state.activeAnalysis !== 'vulnerable' ?
               (
                 <span>
@@ -429,9 +434,10 @@ class DataExplorer extends React.Component {
           <div className='col-md-1' />
           <div className='col-md-6' style={{ backgroundColor:'#efefef', borderRadius: 5, padding:10 }}>
             <h4>{analyses[this.state.activeAnalysis.split('_')[0]].name}</h4>
-            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>Foreign Born people of color and Native Born white non-hispanic<br /></strong> : ''}
+            {['race'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['race'].subcats['race'].display_name}<br /></strong> : ''}
             {['race_women'].indexOf(this.state.activeAnalysis) !== -1? <strong>Foreign Born Women of color And Native Born Women white non-hispanic<br /></strong> : ''}
-            {['nativity', 'nativity_women'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['nativity'].subcats[this.state.activeAnalysis].heading}<br /></strong> : ''}
+            {['nativity'].indexOf(this.state.activeAnalysis) !== -1 ? <strong>{analyses['nativity'].subcats['nativity'].name}<br /></strong> : ''}
+
             {
               analyses[this.state.activeAnalysis] && analyses[this.state.activeAnalysis].heading ?
               <strong>{analyses[this.state.activeAnalysis].heading}<br /></strong>

@@ -18,6 +18,10 @@ export const dataSources = {
     babs: 'group3.json',
     hs: 'group4.json'
   },
+ race_nativity: {
+  babs: 'group12.json',
+  hs: 'group13.json'
+ },
   race_women: {
     babs: 'group7.json',
     hs: 'group8.json'
